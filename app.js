@@ -658,7 +658,7 @@ function greetUserText(userId) {
 				console.log("FB user: %s %s, %s",
 					user.first_name, user.last_name, user.gender);
 
-				sendTextMessage(userId, "Welcome " + user.first_name + '!');
+				sendTextMessage(userId, "Welcome " + user.first_name + 'This Chatbot is Powered by Harpreet');
 			} else {
 				console.log("Cannot get data for fb user with id",
 					userId);
@@ -721,9 +721,12 @@ function receivedPostback(event) {
 	var payload = event.postback.payload;
 
 	switch (payload) {
+		case"Welcome":
+		greetUserText(senderID);
+		break;
 		default:
 			//unindentified payload
-			sendTextMessage(senderID, "I'm not sure what you want. Can you be more specific?");
+			sendTextMessage(senderID, "Will you please ellaborate ");
 			break;
 
 	}
