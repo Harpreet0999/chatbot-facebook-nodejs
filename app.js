@@ -658,7 +658,7 @@ function greetUserText(userId) {
 				console.log("FB user: %s %s, %s",
 					user.first_name, user.last_name, user.gender);
 
-				sendTextMessage(userId, "Welcome " + user.first_name + 'This Chatbot is Powered by Harpreet');
+				sendTextMessage(userId, "Welcome " + user.first_name + ',this Chatbot is Powered by Harpreet');
 			} else {
 				console.log("Cannot get data for fb user with id",
 					userId);
@@ -726,6 +726,7 @@ function receivedPostback(event) {
 		break;
 		case"Contact":
 		sendToApiAi(senderID,"Contact me");
+		break;
 		default:
 			//unindentified payload
 			sendTextMessage(senderID, "Will you please ellaborate ");
