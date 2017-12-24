@@ -724,6 +724,8 @@ function receivedPostback(event) {
 		case"Welcome":
 		greetUserText(senderID);
 		break;
+		case"Contact":
+		sendToApiAi(senderID,"Contact me");
 		default:
 			//unindentified payload
 			sendTextMessage(senderID, "Will you please ellaborate ");
