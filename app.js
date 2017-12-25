@@ -729,6 +729,7 @@ function receivedPostback(event) {
 		break;
 		case"participate":
 		sendToApiAi(senderID,"participate");
+		break;
 		default:
 			//unindentified payload
 			sendTextMessage(senderID, "Will you please ellaborate ");
