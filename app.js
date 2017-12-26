@@ -503,7 +503,42 @@ function sendGenericMessage(recipientId, elements) {
 				type: "template",
 				payload: {
 					template_type: "generic",
-					elements: elements
+					elements: [
+          {
+            "title": "Deepesh Sodhi",
+            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2016/05/sodhi.jpg",
+            "subtitle": "Ceo Fluidonomics",
+            "buttons": [
+              {
+                "type": "web_url",
+                "url": "https://www.linkedin.com/in/deepeshsodhi/",
+                "title": "Linkedin"
+              },
+              {
+                "type": "phone_number",
+                "title": "Call",
+                "payload": "<+919881203818>"
+              }
+            ]
+          },
+          {
+            "title": "Aditya Shastri",
+            "image_url": "https://media-exp1.licdn.com/mpr/mpr/shrinknp_200_200/p/2/000/07b/2d5/3377ec7.jpg",
+            "subtitle": "Ceo Fluidonomics",
+            "buttons": [
+              {
+                "type": "web_url",
+                "url": "https://www.linkedin.com/in/adishastri/",
+                "title": "Linkedin"
+              },
+              {
+                "type": "phone_number",
+                "title": "Call",
+                "payload": "<+919930880255>"
+              }
+            ]
+          }
+        ]
 				}
 			}
 		}
@@ -722,15 +757,15 @@ function receivedPostback(event) {
 
 	switch (payload) {
 		case"Welcome":
-		sendToApiAi(senderID,"Get Started");
+		//sendToApiAi(senderID,"Get Started");
 		greetUserText(senderID);
-		
+
 		break;
 		case"Contact":
 		sendToApiAi(senderID,"Contact");
 		break;
 		case"Contact_me":
-		sendToApiAi(senderID,"Contact");
+		sendGenericMessage(senderID,elements);
 		break;
 
 		case"participate":
