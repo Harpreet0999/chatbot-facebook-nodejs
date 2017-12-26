@@ -728,7 +728,7 @@ function receivedPostback(event) {
 		case"Contact":
 		sendToApiAi(senderID,"Contact");
 		break;
-		case"Contact":
+		case"Contact_me":
 		sendToApiAi(senderID,"Contact");
 		break;
 
