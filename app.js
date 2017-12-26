@@ -723,6 +723,7 @@ function receivedPostback(event) {
 	switch (payload) {
 		case"Welcome":
 		greetUserText(senderID);
+		sendToApiAi(senderID,"Get Started");
 		break;
 		case"Contact":
 		sendToApiAi(senderID,"Contact me");
