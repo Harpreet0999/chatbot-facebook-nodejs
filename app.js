@@ -726,8 +726,12 @@ function receivedPostback(event) {
 		//sendToApiAi(senderID,"Get Started");
 		break;
 		case"Contact":
-		sendToApiAi(senderID,"Contact me");
+		sendToApiAi(senderID,"Contact");
 		break;
+		case"Contact":
+		sendToApiAi(senderID,"Contact");
+		break;
+
 		case"participate":
 		sendToApiAi(senderID,"participate");
 		break;
