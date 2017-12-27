@@ -724,12 +724,60 @@ function receivedPostback(event) {
 		case"Welcome":
 		//sendToApiAi(senderID,"Get Started");
 		greetUserText(senderID);
+		
 
+		let elements=[
+		{
+			"title": "About us",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "subtitle": "Technology Solutions company with modern techno-creative fluid blend as its principle.",
+            "buttons": [
+              {
+                "type": "web_url",
+                "url": "http://www.fluidonomics.com/know-us/",
+                "title": "Know Us",
+                "webview_height_ratio":"tall"
+              }
+            ]
+
+		},
+		{
+			"title": "Jobs",
+            "image_url": "http://www.idealstaffinginc.net/wp-content/uploads/2016/11/current-openings.png",
+            "subtitle": "Check Current Openings and Apply for Jobs",
+            "buttons": [
+              {
+                "type": "web_url",
+                "url": "http://www.fluidonomics.com/jobs/",
+                "title": "Current Openings",
+                "webview_height_ratio":"tall"
+              }
+            ]
+
+		},
+		{
+			"title": "Offices",
+            "image_url": "http://www.qbicwashrooms.co.uk/skin/frontend/default/theme205k/images/sectors_2_1.jpg",
+            "subtitle": "Pune,Ujjain and Indore",
+            "buttons": [
+              {
+                "type": "web_url",
+                "url": "http://www.fluidonomics.com/know-us/#offices",
+                "title": "Details",
+                "webview_height_ratio":"tall"
+              }
+            ]
+
+		}
+
+		];
+		sendGenericMessage(senderID,elements);
+		
 		break;
 		case"Contact":
 		sendToApiAi(senderID,"Contact");
 		break;
-		case"Contact_me":
+		case"Contact_man":
 		let elements=[
 		{
 			"title": "Deepesh Sodhi",
@@ -740,22 +788,29 @@ function receivedPostback(event) {
                 "type": "web_url",
                 "url": "https://www.linkedin.com/in/deepeshsodhi/",
                 "title": "Linkedin"
-              },
-              {
-                "type": "phone_number",
-                "title": "Call",
-                "payload": "<+919881203818>"
               }
             ]
 
-		}
+		},
+		{
+            "title": "Aditya Shastri",
+            "image_url": "https://media-exp1.licdn.com/mpr/mpr/shrinknp_200_200/p/2/000/07b/2d5/3377ec7.jpg",
+            "subtitle": "Ceo Fluidonomics",
+            "buttons": [
+              {
+                "type": "web_url",
+                "url": "https://www.linkedin.com/in/adishastri/",
+                "title": "Linkedin"
+              }
+            ]
+          }
+        ]
+      }
 		];
 		sendGenericMessage(senderID,elements);
 		break;
 
-		case"participate":
-		sendToApiAi(senderID,"participate");
-		break;
+		
 		default:
 			//unindentified payload
 			sendTextMessage(senderID, "Will you please ellaborate ");
