@@ -738,9 +738,9 @@ function receivedPostback(event) {
 
               },
               {
-                "type": "web_url",
-                "url": "http://www.fluidonomics.com/",
-                "title": "Website"
+                "type": "postback",
+                "payload": "About",
+                "title": "About us"
               }
             ]
 
