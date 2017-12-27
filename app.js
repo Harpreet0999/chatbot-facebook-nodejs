@@ -731,11 +731,7 @@ function receivedPostback(event) {
             "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
             "subtitle": "Technology Solutions company with modern techno-creative fluid blend as its principle",
             "buttons": [
-              {
-                "type": "postback",
-                "payload": "About",
-                "title": "About us"
-              },
+
               {
                 "type": "web_url",
                 "url": "http://www.fluidonomics.com/",
@@ -743,64 +739,8 @@ function receivedPostback(event) {
               }
             ]
 
-		},
-			{
-			"title": "Jobs",
-            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/08/JAVAopt-600x403.jpg",
-            "subtitle": "Search Jobs",
-            "buttons": [
-              {
-              	"type": "postback",
-                "payload": "openings",
-                "title": "Current Openings"
-               
-              },
-               {
-              	"type": "postback",
-                "payload": "urgent",
-                "title": "Urgent Requirement"
-               
-              }
-           
-              ]
-          },
-
-
-          {
-			"title": "Contact",
-            "image_url": "https://failuretolisten.files.wordpress.com/2013/04/contactus.jpg",
-            "subtitle": "Contact Us",
-            "buttons": [
-              {
-              	"type": "postback",
-                "payload": "Contact_man",
-                "title": "Management"
-                
-              },
-              {
-              	"type": "postback",
-                "payload": "cemail",
-                "title": "Contact on Email"
-               
-              }
-            ]
-
-		},
-		{
-			"title": "Offices",
-            "image_url": "hhttps://s-media-cache-ak0.pinimg.com/originals/e5/d3/10/e5d310b6e2e433f522feed8a4908c09e.jpg",
-            "subtitle": "Pune,Indore and Ujjain",
-            "buttons": [
-              {
-              	"type": "postback",
-                "payload": "Offices",
-                "title": "Details"
-                
-              }
-            ]
-
-		}
-
+		},\
+			
 		];
 		sendGenericMessage(senderID,delements);
 
