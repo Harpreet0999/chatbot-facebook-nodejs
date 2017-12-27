@@ -754,7 +754,8 @@ function receivedPostback(event) {
                 "url": "https://www.linkedin.com/in/adishastri/",
                 "title": "Linkedin"
               }
-          };
+              ]
+          }
 
 		];
 		sendGenericMessage(senderID,elements);
