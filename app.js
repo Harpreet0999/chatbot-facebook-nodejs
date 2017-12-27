@@ -730,7 +730,27 @@ function receivedPostback(event) {
 		sendToApiAi(senderID,"Contact");
 		break;
 		case"Contact_me":
-		sendGenericMessage(senderID,"Contact");
+		let elements=[
+		{
+			"title": "Deepesh Sodhi",
+            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2016/05/sodhi.jpg",
+            "subtitle": "Ceo Fluidonomics",
+            "buttons": [
+              {
+                "type": "web_url",
+                "url": "https://www.linkedin.com/in/deepeshsodhi/",
+                "title": "Linkedin"
+              },
+              {
+                "type": "phone_number",
+                "title": "Call",
+                "payload": "<+919881203818>"
+              }
+            ]
+
+		}
+		];
+		sendGenericMessage(senderID,elements);
 		break;
 
 		case"participate":
