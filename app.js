@@ -744,6 +744,25 @@ function receivedPostback(event) {
               }
             ]
 
+		},
+		{
+			"title": "Fluidonomics",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "subtitle": "Technology Solutions company with modern techno-creative fluid blend as its principle",
+            "buttons": [
+              {
+               "type": "web_url",
+                "url": "http://www.fluidonomics.com/",
+                "title": "Website"
+
+              },
+              {
+                "type": "postback",
+                "payload": "About",
+                "title": "About us"
+              }
+            ]
+
 		}
 		];
 		sendGenericMessage(senderID,delements);
