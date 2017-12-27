@@ -766,7 +766,7 @@ function receivedPostback(event) {
 		break;
 		default:
 			//unindentified payload
-			let elements=[
+			let ele=[
 		{
 			"title": "Deepesh Sodhi",
             "image_url": "http://www.fluidonomics.com/wp-content/uploads/2016/05/sodhi.jpg",
@@ -795,7 +795,7 @@ function receivedPostback(event) {
 
 
 		];
-		sendGenericMessage(senderID,elements);
+		sendGenericMessage(senderID,ele);
 			
 			break;
 
