@@ -732,91 +732,86 @@ function receivedPostback(event) {
             "subtitle": "Technology Solutions company with modern techno-creative fluid blend as its principle",
             "buttons": [
               {
-               "type": "web_url",
-                "url": "http://www.fluidonomics.com/",
-                "title": "Website"
+               "type": "postback",
+                "payload": "About",
+                "title": "About us"
 
               },
               {
-                "type": "postback",
-                "payload": "About",
-                "title": "About us"
+           
+                "type": "web_url",
+                "url": "http://www.fluidonomics.com/",
+                "title": "Website"
               }
             ]
 
 		},
 		{
-			"title": "Fluidonomics",
+			"title": "Jobs",
             "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
-            "subtitle": "Technology Solutions company with modern techno-creative fluid blend as its principle",
+            "subtitle": "Find Current Openings and Apply for Jobs",
             "buttons": [
               {
-               "type": "web_url",
-                "url": "http://www.fluidonomics.com/",
-                "title": "Website"
+               "type": "postback",
+                "payload": "Openings",
+                "title": "Current Opening"
 
-              },
-              {
-                "type": "postback",
-                "payload": "About",
-                "title": "About us"
               }
             ]
 
 		},
 		{
-			"title": "Fluidonomics",
+			"title": "Contact",
             "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
-            "subtitle": "Technology Solutions company with modern techno-creative fluid blend as its principle",
+            "subtitle": "Conatct Us",
             "buttons": [
               {
-               "type": "web_url",
-                "url": "http://www.fluidonomics.com/",
-                "title": "Website"
+               "type": "postback",
+                "payload": "Email",
+                "title": "Email"
 
               },
               {
                 "type": "postback",
-                "payload": "About",
-                "title": "About us"
+                "payload": "Contact_man",
+                "title": "Management"
               }
             ]
 
 		},
 		{
-			"title": "Fluidonomics",
+			"title": "Offices",
             "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
-            "subtitle": "Technology Solutions company with modern techno-creative fluid blend as its principle",
+            "subtitle": "Pune, Indore and Ujjain",
             "buttons": [
               {
-               "type": "web_url",
-                "url": "http://www.fluidonomics.com/",
-                "title": "Website"
+               "type": "postback",
+                "payload": "Offices",
+                "title": "Details"
 
-              },
-              {
-                "type": "postback",
-                "payload": "About",
-                "title": "About us"
               }
+             
+                
+              
             ]
 
 		},
 		{
-			"title": "Fluidonomics",
+			"title": "Services",
             "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
-            "subtitle": "Technology Solutions company with modern techno-creative fluid blend as its principle",
+            "subtitle": "Services Provided by Fluidonomics",
             "buttons": [
               {
-               "type": "web_url",
-                "url": "http://www.fluidonomics.com/",
-                "title": "Website"
+               "type": "postback",
+                "payload": "services",
+                "title": "Services"
 
               },
               {
-                "type": "postback",
-                "payload": "About",
-                "title": "About us"
+              	"type": "postback",
+                "payload": "Client",
+                "title": "Our Clients"
+                
               }
             ]
 
