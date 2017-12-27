@@ -722,11 +722,8 @@ function receivedPostback(event) {
 
 	switch (payload) {
 		case"Welcome":
-		//sendToApiAi(senderID,"Get Started");
-		greetUserText(senderID);
-		
-
-		let elements=[
+	
+let elements=[
 		{
 			"title": "About us",
             "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
@@ -735,8 +732,8 @@ function receivedPostback(event) {
               {
                 "type": "web_url",
                 "url": "http://www.fluidonomics.com/know-us/",
-                "title": "Know Us",
-                "webview_height_ratio":"tall"
+                "title": "Know Us"
+                //"webview_height_ratio":"tall"
               }
             ]
 
@@ -750,7 +747,7 @@ function receivedPostback(event) {
                 "type": "web_url",
                 "url": "http://www.fluidonomics.com/jobs/",
                 "title": "Current Openings",
-                "webview_height_ratio":"tall"
+                //webview_height_ratio":"tall"
               }
             ]
 
@@ -764,13 +761,14 @@ function receivedPostback(event) {
                 "type": "web_url",
                 "url": "http://www.fluidonomics.com/know-us/#offices",
                 "title": "Details",
-                "webview_height_ratio":"tall"
+                //"webview_height_ratio":"tall"
               }
             ]
 
 		}
 
 		];
+		greetUserText(senderID);
 		sendGenericMessage(senderID,elements);
 		
 		break;
