@@ -722,8 +722,9 @@ function receivedPostback(event) {
 
 	switch (payload) {
 		case"Welcome":
+		greetUserText(senderID);
 	
-let elements=[
+/*let elements=[
 		{
 			"title": "About us",
             "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
@@ -768,8 +769,8 @@ let elements=[
 		}
 
 		];
-		greetUserText(senderID);
-		sendGenericMessage(senderID,elements);
+		
+		sendGenericMessage(senderID,elements);*/
 		
 		break;
 		case"Contact":
