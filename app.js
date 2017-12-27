@@ -729,7 +729,7 @@ function receivedPostback(event) {
 		{
 			"title": "Fluidonomics",
             "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
-            "subtitle": "Technology Solutions company with modern techno-creative fluid blend as its principle",
+            "subtitle": "Technology Solutions company",
             "buttons": [
               {
                "type": "postback",
