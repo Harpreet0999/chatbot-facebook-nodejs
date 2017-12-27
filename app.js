@@ -722,13 +722,15 @@ function receivedPostback(event) {
 
 	switch (payload) {
 		case"Welcome":
-		//sendToApiAi(senderID,"Get Started");
+		
 		greetUserText(senderID);
 
 		break;
+
 		case"Contact":
 		sendToApiAi(senderID,"Contact");
 		break;
+		
 		case"Contact_man":
 		let elements=[
 		{
