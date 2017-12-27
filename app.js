@@ -735,7 +735,7 @@ function receivedPostback(event) {
                "type": "web_url",
                 "url": "http://www.fluidonomics.com/",
                 "title": "Website"
-      
+
               },
               {
                 "type": "web_url",
@@ -744,63 +744,7 @@ function receivedPostback(event) {
               }
             ]
 
-		},
-			{
-			"title": "Jobs",
-            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/08/JAVAopt-600x403.jpg",
-            "subtitle": "Search Jobs",
-            "buttons": [
-              {
-              	"type": "web_url",
-                "url": "http://www.fluidonomics.com/",
-                "title": "Website"
-               
-              },
-               {
-              	"type": "web_url",
-                "url": "http://www.fluidonomics.com/",
-                "title": "Website"
-               
-              }
-           
-              ]
-          },
-
-
-          {
-			"title": "Contact",
-            "image_url": "https://failuretolisten.files.wordpress.com/2013/04/contactus.jpg",
-            "subtitle": "Contact Us",
-            "buttons": [
-              {
-              "type": "web_url",
-                "url": "http://www.fluidonomics.com/",
-                "title": "Website"
-                
-              },
-              {
-              	"type": "web_url",
-                "url": "http://www.fluidonomics.com/",
-                "title": "Website"
-               
-              }
-            ]
-
-		},
-		{
-			"title": "Offices",
-            "image_url": "hhttps://s-media-cache-ak0.pinimg.com/originals/e5/d3/10/e5d310b6e2e433f522feed8a4908c09e.jpg",
-            "subtitle": "Pune,Indore and Ujjain",
-            "buttons": [
-              {
-              	"type": "web_url",
-                "url": "http://www.fluidonomics.com/",
-                "title": "Website"
-              }
-            ]
-
 		}
-
 		];
 		sendGenericMessage(senderID,delements);
 
