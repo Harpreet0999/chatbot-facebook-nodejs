@@ -874,6 +874,34 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 
 		];
 		sendGenericMessage(senderID,elements);
+		case"Openings":
+
+		let jbopening=[
+		{
+			"title": "Fluidonomics",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "subtitle": "Technology Solutions company",
+            "buttons": [
+              {
+               "type": "postback",
+                "payload": "About_us",
+                "title": "About us"
+
+              },
+              {
+           
+                "type": "web_url",
+                "url": "http://www.fluidonomics.com/",
+                "title": "Website",
+                "webview_height_ratio": "tall"
+
+              }
+            ]
+
+		}
+		];
+		sendGenericMessage(senderID,jbopening);
+		break;
 
 
 		case"participate":
