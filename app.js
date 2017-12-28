@@ -742,7 +742,9 @@ function receivedPostback(event) {
            
                 "type": "web_url",
                 "url": "http://www.fluidonomics.com/",
-                "title": "Website"
+                "title": "Website",
+                "webview_height_ratio": "tall"
+
               }
             ]
 
@@ -821,6 +823,23 @@ function receivedPostback(event) {
 		sendGenericMessage(senderID,delements);
 
 		break;
+		case"About";
+		Let about=[
+		{
+			"title": "Welcome to Fluidonomics",
+            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2016/05/sodhi.jpg"
+            
+		}
+        
+		];
+		sendGenericMessage(senderID,about);
+		sendTextMessage(senderID,"Technology Solutions company with modern techno-creative fluid blend as its principle."+ 
+ "Developing economically feasible, artistically adaptable, and technically cutting edge solutions as its focus."+
+"Based on stage goals of organization we serve through choice of tracks. Acceleration, Build, Change, Direct and Economize"+
+"We promise no box-pushing, no hyper-specialization cacophony and no take your pick selling"
+"We are a Perfect Fluid Blend of Art and Science");
+
+		break;
 		case"Contact":
 		sendToApiAi(senderID,"Contact");
 		break;
@@ -834,7 +853,8 @@ function receivedPostback(event) {
               {
                 "type": "web_url",
                 "url": "https://www.linkedin.com/in/deepeshsodhi/",
-                "title": "Linkedin"
+                "title": "Linkedin",
+                "webview_height_ratio": "tall"
               }
             ]
 
@@ -847,7 +867,8 @@ function receivedPostback(event) {
               {
                 "type": "web_url",
                 "url": "https://www.linkedin.com/in/adishastri/",
-                "title": "Linkedin"
+                "title": "Linkedin",
+                "webview_height_ratio": "tall"
               }
               ]
           }
