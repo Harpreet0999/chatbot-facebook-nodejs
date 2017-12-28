@@ -824,15 +824,23 @@ function receivedPostback(event) {
 
 		break;
 		case"About_us":
-		Let about=[
+		let about_fluid=[
 		{
 			"title": "Welcome to Fluidonomics",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png"
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "buttons": [
+              {
+               "type": "postback",
+                "payload": "Contact_man",
+                "title": "Management"
+
+              }
+              ]
             
 		}
         
 		];
-		sendGenericMessage(senderID,about);
+		sendGenericMessage(senderID,about_fluid);
 		//sendTextMessage(senderID,"Technology Solutions company with modern techno-creative fluid blend as its principle."+ 
  //"Developing economically feasible, artistically adaptable, and technically cutting edge solutions as its focus."+
 //"Based on stage goals of organization we serve through choice of tracks. Acceleration, Build, Change, Direct and Economize"+
