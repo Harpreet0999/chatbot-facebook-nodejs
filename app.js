@@ -838,8 +838,9 @@ function receivedPostback(event) {
 		}
         
 		];
+		
+		//sendTextMessage(senderID,"Technology Solutions company with modern techno-creative fluid blend as its principle.");
 		sendGenericMessage(senderID,about_fluid);
-		sendTextMessage(senderID,"Technology Solutions company with modern techno-creative fluid blend as its principle.");
  //"Developing economically feasible, artistically adaptable, and technically cutting edge solutions as its focus."+
 //"Based on stage goals of organization we serve through choice of tracks. Acceleration, Build, Change, Direct and Economize"+
 //"We promise no box-pushing, no hyper-specialization cacophony and no take your pick selling"
