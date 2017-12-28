@@ -893,17 +893,16 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 
 		},
 		{
-			"title": "Security Testing",
+			"title": "QA Engineer",
             "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
-            "subtitle": "3+ Years",
+           "subtitle": "2+ Years",
             "buttons": [
               {
-               "type": "web_url",
-                "url": "http://www.fluidonomics.com/security-testing-3-years/",
+              "type": "web_url",
+                "url": "http://www.fluidonomics.com/software-testing-pune/",
                 "title": "Apply now",
                 "webview_height_ratio": "tall"
-                
-
+			
               }
             ]
 
@@ -941,24 +940,23 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
             ]
 
 		},
-		
 {
-			"title": "QA Engineer",
+			
+"title": "Security Testing",
             "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
-           "subtitle": "+ Years",
+            "subtitle": "3+ Years",
             "buttons": [
               {
-              "type": "web_url",
-                "url": "http://www.fluidonomics.com/software-testing-pune/",
+               "type": "web_url",
+                "url": "http://www.fluidonomics.com/security-testing-3-years/",
                 "title": "Apply now",
                 "webview_height_ratio": "tall"
+                
 
               }
             ]
 
 		}
-
-
 
 
 		];
