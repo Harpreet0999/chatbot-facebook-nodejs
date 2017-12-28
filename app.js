@@ -832,7 +832,7 @@ function receivedPostback(event) {
 		}
         
 		];
-		sendTextMessage(senderID,"Fluidonomics");
+
 		sendGenericMessage(senderID,about_fluid);
 		sendTypingOn(senderID);
 		sendTextMessage(senderID,"Technology Solutions company with modern techno-creative fluid blend as its principle."+" Developing economically feasible, artistically adaptable, and technically cutting edge solutions as its focus.");
@@ -875,6 +875,145 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 		];
 		sendGenericMessage(senderID,elements);
 		break;
+		case"Openings":
+		let jobopening=[
+{
+			"title": "NodeJS | Full Stack Web Developer | 2+ Years",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            
+            "buttons": [
+              {
+              "type": "web_url",
+                "url": "http://www.fluidonomics.com/nodejs/",
+                "title": "Apply now",
+                "webview_height_ratio": "tall"
+
+              }
+            ]
+
+		},
+		{
+			"title": "Security Testing | 3+ Years",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            
+            "buttons": [
+              {
+               "type": "web_url",
+                "url": "http://www.fluidonomics.com/security-testing-3-years/",
+                "title": "Apply now",
+                "webview_height_ratio": "tall"
+                
+
+              }
+            ]
+
+		},
+	{
+			"title": "Sr. Java Developer | 4+ Years",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            
+            "buttons": [
+              {
+               "type": "web_url",
+                "url": "http://www.fluidonomics.com/sr-java-developer-4-years/",
+                "title": "Apply now",
+                "webview_height_ratio": "tall"
+                
+
+              }
+            ]
+
+		},
+	{
+			"title": "HR | Internship",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            
+            "buttons": [
+              {
+               "type": "web_url",
+                "url": "http://www.fluidonomics.com/hr-internship-pune/",
+                "title": "Apply now",
+                "webview_height_ratio": "tall"
+                
+
+              }
+            ]
+
+		},
+		{
+			"title": "QA Engineer | 2+ Years",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+           
+            "buttons": [
+              {
+              "type": "web_url",
+                "url": "http://www.fluidonomics.com/software-testing-pune/",
+                "title": "Apply now",
+                "webview_height_ratio": "tall"
+
+              }
+            ]
+
+		}
+		];
+		sendGenericMessage(senderID,jobopening);
+
+		break;
+		case"About_us":
+		let about_fluid=[
+		{
+			"title": "Welcome to Fluidonomics",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            
+		}
+        
+		];
+
+		sendGenericMessage(senderID,about_fluid);
+		sendTypingOn(senderID);
+		sendTextMessage(senderID,"Technology Solutions company with modern techno-creative fluid blend as its principle."+" Developing economically feasible, artistically adaptable, and technically cutting edge solutions as its focus.");
+sendTextMessage(senderID, "Based on stage goals of organization we serve through choice of tracks. Acceleration, Build, Change, Direct and Economize"+" We promise no box-pushing, no hyper-specialization cacophony and no take your pick selling"+" We are a Perfect Fluid Blend of Art and Science");
+
+		break;
+		case"Contact":
+		sendToApiAi(senderID,"Contact");
+		break;
+		case"Contact_man":
+		let elements=[
+		{
+			"title": "Deepesh Sodhi",
+            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2016/05/sodhi.jpg",
+            "subtitle": "Ceo Fluidonomics",
+            "buttons": [
+              {
+                "type": "web_url",
+                "url": "https://www.linkedin.com/in/deepeshsodhi/",
+                "title": "Linkedin",
+                "webview_height_ratio": "tall"
+              }
+            ]
+
+		},
+			{
+			"title": "Aditya Shastri",
+            "image_url": "https://media-exp1.licdn.com/mpr/mpr/shrinknp_200_200/p/2/000/07b/2d5/3377ec7.jpg",
+            "subtitle": "Ceo Fluidonomics",
+            "buttons": [
+              {
+                "type": "web_url",
+                "url": "https://www.linkedin.com/in/adishastri/",
+                "title": "Linkedin",
+                "webview_height_ratio": "tall"
+              }
+              ]
+          }
+
+		];
+		sendGenericMessage(senderID,elements);
+		break;
+		case"Email";
+		break;
+
 
 		case"participate":
 		sendToApiAi(senderID,"participate");
