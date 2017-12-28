@@ -879,22 +879,6 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 		
 
 		break;
-		case"About_us":
-		let about_fluid=[
-		{
-			"title": "Welcome to Fluidonomics",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
-            
-		}
-        
-		];
-
-		sendGenericMessage(senderID,about_fluid);
-		sendTypingOn(senderID);
-		sendTextMessage(senderID,"Technology Solutions company with modern techno-creative fluid blend as its principle."+" Developing economically feasible, artistically adaptable, and technically cutting edge solutions as its focus.");
-sendTextMessage(senderID, "Based on stage goals of organization we serve through choice of tracks. Acceleration, Build, Change, Direct and Economize"+" We promise no box-pushing, no hyper-specialization cacophony and no take your pick selling"+" We are a Perfect Fluid Blend of Art and Science");
-
-		break;
 		case"Contact":
 		sendToApiAi(senderID,"Contact");
 		break;
