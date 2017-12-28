@@ -1030,6 +1030,36 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
                 "webview_height_ratio": "tall"
                 
 
+              },
+               {
+              	 "type": "element_share",
+                "share_contents": { 
+                  "attachment": {
+                    "type": "template",
+                    "payload": {
+                      "template_type": "generic",
+                      "elements": [
+                       {
+                          "title": "HR Internship",
+                          
+                          "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+                          
+                          "buttons": [
+                            {
+                            "type": "web_url",
+                "url": "http://www.fluidonomics.com/hr-internship-pune/",
+                "title": "Apply now",
+                "webview_height_ratio": "tall"
+                              
+                            }
+                          ]
+                        }
+                      ]
+
+             }
+         }
+     }
+
               }
             ]
 
@@ -1046,6 +1076,36 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
                 "title": "Apply now",
                 "webview_height_ratio": "tall"
                 
+
+              },
+              {
+              	 "type": "element_share",
+                "share_contents": { 
+                  "attachment": {
+                    "type": "template",
+                    "payload": {
+                      "template_type": "generic",
+                      "elements": [
+                       {
+                          "title": "Security Testing",
+                          
+                          "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+                          
+                          "buttons": [
+                            {
+                            "type": "web_url",
+                "url": "http://www.fluidonomics.com/security-testing-3-years/",
+                "title": "Apply now",
+                "webview_height_ratio": "tall"
+                              
+                            }
+                          ]
+                        }
+                      ]
+
+             }
+         }
+     }
 
               }
             ]
