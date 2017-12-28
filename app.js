@@ -823,11 +823,11 @@ function receivedPostback(event) {
 		sendGenericMessage(senderID,delements);
 
 		break;
-		case"About_us";
+		case"About_us":
 		Let about=[
 		{
 			"title": "Welcome to Fluidonomics",
-            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2016/05/sodhi.jpg"
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png"
             
 		}
         
