@@ -879,42 +879,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 		
 
 		break;
-		case"Contact":
-		sendToApiAi(senderID,"Contact");
-		break;
-		case"Contact_man":
-		let elements=[
-		{
-			"title": "Deepesh Sodhi",
-            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2016/05/sodhi.jpg",
-            "subtitle": "Ceo Fluidonomics",
-            "buttons": [
-              {
-                "type": "web_url",
-                "url": "https://www.linkedin.com/in/deepeshsodhi/",
-                "title": "Linkedin",
-                "webview_height_ratio": "tall"
-              }
-            ]
-
-		},
-			{
-			"title": "Aditya Shastri",
-            "image_url": "https://media-exp1.licdn.com/mpr/mpr/shrinknp_200_200/p/2/000/07b/2d5/3377ec7.jpg",
-            "subtitle": "Ceo Fluidonomics",
-            "buttons": [
-              {
-                "type": "web_url",
-                "url": "https://www.linkedin.com/in/adishastri/",
-                "title": "Linkedin",
-                "webview_height_ratio": "tall"
-              }
-              ]
-          }
-
-		];
-		sendGenericMessage(senderID,elements);
-		break;
+		
 		case"Email";
 		break;
 
