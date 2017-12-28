@@ -878,9 +878,9 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 		case"Openings":
 		let jobopening=[
 {
-			"title": "NodeJS | Full Stack Web Developer | 2+ Years",
+			"title": "NodeJS ",
             "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
-            
+            "subtitle": "| Full Stack Web Developer | 2+ Years",
             "buttons": [
               {
               "type": "web_url",
@@ -893,9 +893,9 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 
 		},
 		{
-			"title": "Security Testing | 3+ Years",
+			"title": "Security Testing",
             "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
-            
+            "subtitle": "3+ Years",
             "buttons": [
               {
                "type": "web_url",
@@ -909,8 +909,9 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 
 		},
 	{
-			"title": "Sr. Java Developer | 4+ Years",
+			"title": "Sr. Java Developer ",
             "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "subtitle": "4+ Years",
             
             "buttons": [
               {
@@ -941,9 +942,9 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 
 		},
 		{
-			"title": "QA Engineer | 2+ Years",
+			"title": "QA Engineer",
             "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
-           
+           "subtitle": "+ Years",
             "buttons": [
               {
               "type": "web_url",
