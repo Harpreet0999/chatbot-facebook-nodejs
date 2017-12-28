@@ -878,27 +878,39 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 
 		let jbopening=[
 		{
-			"title": "Fluidonomics",
+			"title": "NodeJS ",
             "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
-            "subtitle": "Technology Solutions company",
+            "subtitle": "| Full Stack Web Developer | 2+ Years",
             "buttons": [
               {
-               "type": "postback",
-                "payload": "About_us",
-                "title": "About us"
-
-              },
-              {
-           
-                "type": "web_url",
-                "url": "http://www.fluidonomics.com/",
-                "title": "Website",
+              "type": "web_url",
+                "url": "http://www.fluidonomics.com/nodejs/",
+                "title": "Apply now",
                 "webview_height_ratio": "tall"
 
               }
             ]
 
-		}
+		},
+		{
+			"title": "Security Testing",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "subtitle": "3+ Years",
+            "buttons": [
+              {
+               "type": "web_url",
+                "url": "http://www.fluidonomics.com/security-testing-3-years/",
+                "title": "Apply now",
+                "webview_height_ratio": "tall"
+                
+
+              }
+            ]
+
+		},
+
+
+
 		];
 		sendGenericMessage(senderID,jbopening);
 		break;
