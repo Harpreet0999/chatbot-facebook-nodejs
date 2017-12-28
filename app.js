@@ -724,6 +724,7 @@ function receivedPostback(event) {
 	switch (payload) {
 		case"Welcome":
 		greetUserText(senderID);
+		sendTypingOn(senderID);
 
 		let delements=[
 		{
