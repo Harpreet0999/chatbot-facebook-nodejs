@@ -874,6 +874,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 
 		];
 		sendGenericMessage(senderID,elements);
+		break;
 		case"Openings":
 
 		let jbopening=[
