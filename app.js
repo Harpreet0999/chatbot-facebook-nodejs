@@ -832,6 +832,7 @@ function receivedPostback(event) {
 		}
         
 		];
+		sendTextMessage(senderID,"Fluidonomics");
 		sendGenericMessage(senderID,about_fluid);
 		sendTypingOn(senderID);
 		sendTextMessage(senderID,"Technology Solutions company with modern techno-creative fluid blend as its principle."+" Developing economically feasible, artistically adaptable, and technically cutting edge solutions as its focus.");
