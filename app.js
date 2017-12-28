@@ -889,6 +889,12 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
                 "title": "Apply now",
                 "webview_height_ratio": "tall"
 
+              },
+              {
+              	  "type":"element_share",
+              	  "title" : "Share"
+
+
               }
             ]
 
