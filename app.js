@@ -971,31 +971,98 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 		default:
 			//unindentified payload
 			let ele=[
-		{
-			"title": "Deepesh Sodhi",
-            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2016/05/sodhi.jpg",
-            "subtitle": "Ceo Fluidonomics",
+	{
+			"title": "Fluidonomics",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "subtitle": "Technology Solutions company",
             "buttons": [
               {
+               "type": "postback",
+                "payload": "About_us",
+                "title": "About us"
+
+              },
+              {
+           
                 "type": "web_url",
-                "url": "https://www.linkedin.com/in/deepeshsodhi/",
-                "title": "Linkedin"
+                "url": "http://www.fluidonomics.com/",
+                "title": "Website",
+                "webview_height_ratio": "tall"
+
               }
             ]
 
 		},
-			{
-			"title": "Aditya Shastri",
-            "image_url": "https://media-exp1.licdn.com/mpr/mpr/shrinknp_200_200/p/2/000/07b/2d5/3377ec7.jpg",
-            "subtitle": "Ceo Fluidonomics",
+		{
+			"title": "Jobs",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "subtitle": "Find Current Openings and Apply for Jobs",
             "buttons": [
               {
-                "type": "web_url",
-                "url": "https://www.linkedin.com/in/adishastri/",
-                "title": "Linkedin"
+               "type": "postback",
+                "payload": "Openings",
+                "title": "Current Opening"
+
               }
-              ]
-          }
+            ]
+
+		},
+		{
+			"title": "Contact",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "subtitle": "Conatct Us",
+            "buttons": [
+              {
+               "type": "postback",
+                "payload": "Email",
+                "title": "Email"
+
+              },
+              {
+                "type": "postback",
+                "payload": "Contact_man",
+                "title": "Management"
+              }
+            ]
+
+		},
+		{
+			"title": "Offices",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "subtitle": "Pune, Indore and Ujjain",
+            "buttons": [
+              {
+               "type": "postback",
+                "payload": "Offices",
+                "title": "Details"
+
+              }
+             
+                
+              
+            ]
+
+		},
+		{
+			"title": "Services",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "subtitle": "Services Provided by Fluidonomics",
+            "buttons": [
+              {
+               "type": "postback",
+                "payload": "services",
+                "title": "Services"
+
+              },
+              {
+              	"type": "postback",
+                "payload": "Client",
+                "title": "Our Clients"
+                
+              }
+            ]
+
+		}
 
 
 		];
