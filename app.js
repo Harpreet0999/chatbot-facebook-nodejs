@@ -828,12 +828,6 @@ function receivedPostback(event) {
 		{
 			"title": "Welcome to Fluidonomics",
             "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
-            "buttons": [
-              {
-               
-
-              }
-              ]
             
 		}
         
