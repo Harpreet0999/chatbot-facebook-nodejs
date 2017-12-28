@@ -908,6 +908,40 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
             ]
 
 		},
+		{
+			"title": "Sr. Java Developer ",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "subtitle": "4+ Years",
+            
+            "buttons": [
+              {
+               "type": "web_url",
+                "url": "http://www.fluidonomics.com/sr-java-developer-4-years/",
+                "title": "Apply now",
+                "webview_height_ratio": "tall"
+                
+
+              }
+            ]
+
+		},
+	{
+			"title": "HR | Internship",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            
+            "buttons": [
+              {
+               "type": "web_url",
+                "url": "http://www.fluidonomics.com/hr-internship-pune/",
+                "title": "Apply now",
+                "webview_height_ratio": "tall"
+                
+
+              }
+            ]
+
+		},
+
 
 
 
