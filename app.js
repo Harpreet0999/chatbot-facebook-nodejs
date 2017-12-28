@@ -874,14 +874,6 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 
 		];
 		sendGenericMessage(senderID,elements);
-		break;
-		case"Openings":
-		
-
-		break;
-		
-		case"Email";
-		break;
 
 
 		case"participate":
