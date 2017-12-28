@@ -734,7 +734,7 @@ function receivedPostback(event) {
             "buttons": [
               {
                "type": "postback",
-                "payload": "About",
+                "payload": "About_us",
                 "title": "About us"
 
               },
@@ -823,7 +823,7 @@ function receivedPostback(event) {
 		sendGenericMessage(senderID,delements);
 
 		break;
-		case"About";
+		case"About_us";
 		Let about=[
 		{
 			"title": "Welcome to Fluidonomics",
@@ -833,11 +833,11 @@ function receivedPostback(event) {
         
 		];
 		sendGenericMessage(senderID,about);
-		sendTextMessage(senderID,"Technology Solutions company with modern techno-creative fluid blend as its principle."+ 
- "Developing economically feasible, artistically adaptable, and technically cutting edge solutions as its focus."+
-"Based on stage goals of organization we serve through choice of tracks. Acceleration, Build, Change, Direct and Economize"+
-"We promise no box-pushing, no hyper-specialization cacophony and no take your pick selling"
-"We are a Perfect Fluid Blend of Art and Science");
+		//sendTextMessage(senderID,"Technology Solutions company with modern techno-creative fluid blend as its principle."+ 
+ //"Developing economically feasible, artistically adaptable, and technically cutting edge solutions as its focus."+
+//"Based on stage goals of organization we serve through choice of tracks. Acceleration, Build, Change, Direct and Economize"+
+//"We promise no box-pushing, no hyper-specialization cacophony and no take your pick selling"
+//"We are a Perfect Fluid Blend of Art and Science");
 
 		break;
 		case"Contact":
