@@ -1223,16 +1223,17 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 			
 			break;
 			case"Offices":
+			let officefluid = [
 			{
 			"title": "Pune ",
             "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
-            "subtitle": "Office #3, Surya Suman Building, Lane #2 / Road #15, Kalyani Nagar, Pune, Maharashtra 411006",
+            "subtitle": "| Full Stack Web Developer | 2+ Years",
             "buttons": [
             {
 
                             	 "type": "web_url",
-                "url": "https://www.google.co.in/maps/dir/''/fluidonomics/@18.5489811,73.8310685,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2c1109b7970ef:0x4e67ea53344e83b7!2m2!1d73.901109!2d18.548994",
-                "title": "Get Directions",
+                "url": "http://www.fluidonomics.com/nodejs/",
+                "title": "Apply now",
                 "webview_height_ratio": "tall"
                               
                             
@@ -1252,9 +1253,9 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
                           
                           "buttons": [
                             {
-                         "type": "web_url",
-                "url": "https://www.google.co.in/maps/dir/''/fluidonomics/@18.5489811,73.8310685,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2c1109b7970ef:0x4e67ea53344e83b7!2m2!1d73.901109!2d18.548994",
-                "title": "Get Directions",
+                            	 "type": "web_url",
+                "url": "http://www.fluidonomics.com/nodejs/",
+                "title": "Apply now",
                 "webview_height_ratio": "tall"
                               
                             }
@@ -1363,7 +1364,8 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
             ]
 
 		}
-
+];
+sendGenericMessage(senderID,officefluid);
 
 			break;
 
