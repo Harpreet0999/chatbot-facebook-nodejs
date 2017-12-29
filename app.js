@@ -1222,6 +1222,150 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 		sendGenericMessage(senderID,ele);
 			
 			break;
+			case"Offices":
+			{
+			"title": "Pune ",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "subtitle": "Office #3, Surya Suman Building, Lane #2 / Road #15, Kalyani Nagar, Pune, Maharashtra 411006",
+            "buttons": [
+            {
+
+                            	 "type": "web_url",
+                "url": "https://www.google.co.in/maps/dir/''/fluidonomics/@18.5489811,73.8310685,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2c1109b7970ef:0x4e67ea53344e83b7!2m2!1d73.901109!2d18.548994",
+                "title": "Get Directions",
+                "webview_height_ratio": "tall"
+                              
+                            
+            },
+              {
+              	 "type": "element_share",
+                "share_contents": { 
+                  "attachment": {
+                    "type": "template",
+                    "payload": {
+                      "template_type": "generic",
+                      "elements": [
+                       {
+                          "title": "NodeJS",
+                          
+                          "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+                          
+                          "buttons": [
+                            {
+                         "type": "web_url",
+                "url": "https://www.google.co.in/maps/dir/''/fluidonomics/@18.5489811,73.8310685,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2c1109b7970ef:0x4e67ea53344e83b7!2m2!1d73.901109!2d18.548994",
+                "title": "Get Directions",
+                "webview_height_ratio": "tall"
+                              
+                            }
+                          ]
+                        }
+                      ]
+
+             }
+         }
+     }
+
+              }
+            ]
+
+		},
+		{
+			"title": "QA Engineer",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+           "subtitle": "2+ Years",
+            "buttons": [
+              {
+              "type": "web_url",
+                "url": "http://www.fluidonomics.com/software-testing-pune/",
+                "title": "Apply now",
+                "webview_height_ratio": "tall"
+			
+              },
+               {
+              	 "type": "element_share",
+                "share_contents": { 
+                  "attachment": {
+                    "type": "template",
+                    "payload": {
+                      "template_type": "generic",
+                      "elements": [
+                       {
+                          "title": "QA Engineer",
+                          
+                          "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+                          
+                          "buttons": [
+                            {
+                        "type": "web_url",
+                "url": "http://www.fluidonomics.com/software-testing-pune/",
+                "title": "Apply now",
+                "webview_height_ratio": "tall"
+                              
+                            }
+                          ]
+                        }
+                      ]
+
+             }
+         }
+     }
+
+              }
+            ]
+
+		},
+		{
+			"title": "Sr. Java Developer ",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "subtitle": "4+ Years",
+            
+            "buttons": [
+              {
+               "type": "web_url",
+                "url": "http://www.fluidonomics.com/sr-java-developer-4-years/",
+                "title": "Apply now",
+                "webview_height_ratio": "tall"
+                
+
+              },
+              {
+              	 "type": "element_share",
+                "share_contents": { 
+                  "attachment": {
+                    "type": "template",
+                    "payload": {
+                      "template_type": "generic",
+                      "elements": [
+                       {
+                          "title": "Java Developer",
+                          
+                          "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+                          
+                          "buttons": [
+                            {
+                            	"type": "web_url",
+                "url": "http://www.fluidonomics.com/sr-java-developer-4-years/",
+                "title": "Apply now",
+                "webview_height_ratio": "tall"
+                              
+                            }
+                          ]
+                        }
+                      ]
+
+             }
+         }
+     }
+
+              }
+
+            ]
+
+		}
+
+
+			break;
 
 	}
 
