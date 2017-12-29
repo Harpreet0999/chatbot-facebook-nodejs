@@ -1116,7 +1116,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 		];
 		sendGenericMessage(senderID,jbopening);
 		break;
-		case"Services":
+		case"services":
 		let fluidservices=[
 		{
 			"title": "Branding and Designing",
@@ -1155,7 +1155,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
             
         }
 		];
-		
+
 		sendGenericMessage(senderID,fluidservices);
 
 		break;
