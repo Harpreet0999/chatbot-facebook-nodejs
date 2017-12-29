@@ -1227,13 +1227,13 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 			{
 			"title": "Pune ",
             "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
-            "subtitle": "| Full Stack Web Developer | 2+ Years",
+            "subtitle": "Office #3, Surya Suman Building, Lane #2 / Road #15, Kalyani Nagar, Pune, Maharashtra 411006",
             "buttons": [
             {
 
                             	 "type": "web_url",
-                "url": "http://www.fluidonomics.com/nodejs/",
-                "title": "Apply now",
+                "url": "https://www.google.co.in/maps/dir/''/fluidonomics/@18.5489811,73.8310685,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2c1109b7970ef:0x4e67ea53344e83b7!2m2!1d73.901109!2d18.548994",
+                "title": "Get Directions",
                 "webview_height_ratio": "tall"
                               
                             
@@ -1254,9 +1254,10 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
                           "buttons": [
                             {
                             	 "type": "web_url",
-                "url": "http://www.fluidonomics.com/nodejs/",
-                "title": "Apply now",
+                "url": "https://www.google.co.in/maps/dir/''/fluidonomics/@18.5489811,73.8310685,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2c1109b7970ef:0x4e67ea53344e83b7!2m2!1d73.901109!2d18.548994",
+                "title": "Get Directions",
                 "webview_height_ratio": "tall"
+                              
                               
                             }
                           ]
@@ -1272,14 +1273,14 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 
 		},
 		{
-			"title": "QA Engineer",
+			"title": "Indore",
             "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
-           "subtitle": "2+ Years",
+           "subtitle": "Rajani Bhawan, Mahatma Gandhi Rd, Nehru Park 2, Shivaji Nagar, Indore",
             "buttons": [
               {
               "type": "web_url",
-                "url": "http://www.fluidonomics.com/software-testing-pune/",
-                "title": "Apply now",
+                "url": "https://www.google.co.in/maps/place/Rajani+Bhawan,+Mahatma+Gandhi+Rd,+Nehru+Park+2,+Shivaji+Nagar,+Indore,+Madhya+Pradesh+452003/@22.7208446,75.8713118,17z/data=!3m1!4b1!4m5!3m4!1s0x3962fd144b8d04e7:0x99df3c68ccdcb57d!8m2!3d22.7208446!4d75.8735004?hl=en",
+                "title": "Get Directions",
                 "webview_height_ratio": "tall"
 			
               },
@@ -1298,9 +1299,9 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
                           
                           "buttons": [
                             {
-                        "type": "web_url",
-                "url": "http://www.fluidonomics.com/software-testing-pune/",
-                "title": "Apply now",
+                         "type": "web_url",
+                "url": "https://www.google.co.in/maps/place/Rajani+Bhawan,+Mahatma+Gandhi+Rd,+Nehru+Park+2,+Shivaji+Nagar,+Indore,+Madhya+Pradesh+452003/@22.7208446,75.8713118,17z/data=!3m1!4b1!4m5!3m4!1s0x3962fd144b8d04e7:0x99df3c68ccdcb57d!8m2!3d22.7208446!4d75.8735004?hl=en",
+                "title": "Get Directions",
                 "webview_height_ratio": "tall"
                               
                             }
@@ -1317,15 +1318,15 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 
 		},
 		{
-			"title": "Sr. Java Developer ",
+			"title": "Ujjain",
             "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
-            "subtitle": "4+ Years",
+            "subtitle": "74 Sakhipura Indore Gate Ujjain",
             
             "buttons": [
               {
                "type": "web_url",
-                "url": "http://www.fluidonomics.com/sr-java-developer-4-years/",
-                "title": "Apply now",
+                "url": "https://www.google.com/maps/place/23%C2%B010'43.6%22N+75%C2%B046'33.8%22E/@23.178774,75.7738743,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d23.178774!4d75.776063?hl=en",
+                "title": "Get Directions",
                 "webview_height_ratio": "tall"
                 
 
@@ -1345,9 +1346,9 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
                           
                           "buttons": [
                             {
-                            	"type": "web_url",
-                "url": "http://www.fluidonomics.com/sr-java-developer-4-years/",
-                "title": "Apply now",
+                          "type": "web_url",
+                "url": "https://www.google.com/maps/place/23%C2%B010'43.6%22N+75%C2%B046'33.8%22E/@23.178774,75.7738743,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d23.178774!4d75.776063?hl=en",
+                "title": "Get Directions",
                 "webview_height_ratio": "tall"
                               
                             }
