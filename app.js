@@ -1116,6 +1116,49 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 		];
 		sendGenericMessage(senderID,jbopening);
 		break;
+		case"Services":
+		let fluidservices=[
+		{
+			"title": "Branding and Designing",
+			"subtitle": "Branding, Logo Designing, Corporate Identity, Corporate Presentations, Concept Creations, Marketing Material for Offline and Online Mediums,  Info-graphics",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            
+		},
+		{"title": "Web and Mobile Development",
+			"subtitle": "Designing and Developing Web and Mobile interfaces. User Experiences with simple information display or complex back end solutions",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            
+
+		},
+		{"title": "Backoffice Operations",
+			"subtitle": "The iPad, the app, the cloud, the x-commerce, the content and everything to do with the digital life that we lead…",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            
+
+		},
+		{
+		"title": "Market Research",
+			"subtitle": "Primary and Secondary Research, Market Segmentation, Customer Profiling, Data Verification, Data Enrichment, Contact Details Verfication",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            
+        },
+        {
+        	"title": "Digitial Marketing",
+			"subtitle": "Content development and Campaign Management for micro targeted and result oriented digital marketing through Social Media Channels, Mobile Applications, Emails, SMSs etc.",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            
+        },
+        {
+        	"title": "Lead Generation",
+			"subtitle": "Qualified Sales Lead Generation and Appointment Setting through extensive marketing research and focused digital marketing",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            
+        }
+		];
+		
+		sendGenericMessage(senderID,fluidservices);
+
+		break;
 
 
 		case"participate":
@@ -1320,7 +1363,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 		{
 			"title": "Ujjain",
             "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
-            "subtitle": "74 Sakhipura Indore Gate Ujjain",
+            "subtitle": "74 Sakhipura, Indore Gate, Ujjain Madhya Pardesh ",
             
             "buttons": [
               {
