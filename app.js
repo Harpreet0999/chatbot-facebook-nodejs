@@ -1155,8 +1155,17 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
             
         }
 		];
+		let replies=[
+		{
+			"content_type":"quick_replies",
+        "title":"Know More",
+        "payload":"services"
+		}
+
+		]
 
 		sendGenericMessage(senderID,fluidservices);
+		sendQuickReply(senderID,replies);
 
 		break;
 
