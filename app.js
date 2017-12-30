@@ -770,7 +770,7 @@ function receivedPostback(event) {
 		let delements=[
 		{
 			"title": "Fluidonomics",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "image_url": "https://drive.google.com/uc?export=view&id=1qzPbg6mX-tZMCLD54IhVtV9_K95LDFUm",
             "subtitle": "Technology Solutions company",
             "buttons": [
               {
@@ -792,7 +792,7 @@ function receivedPostback(event) {
 		},
 		{
 			"title": "Jobs",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "image_url": "https://drive.google.com/uc?export=view&id=1cLkmfptrOYzOM5rtH_T70Mlx29yfIsUC",
             "subtitle": "Find Current Openings and Apply for Jobs",
             "buttons": [
               {
@@ -806,7 +806,7 @@ function receivedPostback(event) {
 		},
 		{
 			"title": "Contact",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "image_url": "https://drive.google.com/uc?export=view&id=1APXbC8pvW2QChj1sWmSOQiMtsgKirhLU",
             "subtitle": "Conatct Us",
             "buttons": [
               {
@@ -825,7 +825,7 @@ function receivedPostback(event) {
 		},
 		{
 			"title": "Offices",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "image_url": "https://drive.google.com/uc?export=view&id=1mrJrLQ3S7WSXhtr2NdTweJRsTdmdLv9q",
             "subtitle": "Pune, Indore and Ujjain",
             "buttons": [
               {
@@ -842,7 +842,7 @@ function receivedPostback(event) {
 		},
 		{
 			"title": "Services",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "image_url": "https://drive.google.com/uc?export=view&id=19cU9Z7kl2nUVsOkiWwMv4m1YcRlI0wP_",
             "subtitle": "Services Provided by Fluidonomics",
             "buttons": [
               {
