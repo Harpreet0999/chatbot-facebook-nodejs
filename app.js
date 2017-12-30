@@ -663,15 +663,14 @@ function greetUserText(userId) {
 
 			if (user.first_name) {
 
-
-				var pool = new pg.Pool(config.PG_CONFIG);
+var pool = new pg.Pool(config.PG_CONFIG);
 pool.connect(function(err, client, done) {
 	if (err) {
 		return console.error('Error acquiring client', err.stack);
 	}
 	var rows = [];
 	console.log('fetching user');
-	client.query(`SELECT id FROM Botuser WHERE fb_id='${userId}' LIMIT 1`,
+	client.query(`SELECT id FROM users WHERE fb_id='${userId}' LIMIT 1`,
 		function(err, result) {
 			console.log('query result ' + result);
 			if (err) {
@@ -679,19 +678,18 @@ pool.connect(function(err, client, done) {
 			} else {
 				console.log('rows: ' + result.rows.length);
 				if (result.rows.length === 0) {
-					let sql = 'INSERT INTO Botuser (fb_id, first_name, last_name,gender, profile_pic, ' +
-						'locale, timezone, ) VALUES ($1, $2, $3, $4, $5, $6, $7)';
+					let sql = 'INSERT INTO users (fb_id, first_name, last_name, profile_pic, ' +
+						'locale, timezone, gender) VALUES ($1, $2, $3, $4, $5, $6, $7)';
 					console.log('sql: ' + sql);
 					client.query(sql,
 						[
 							userId,
 							user.first_name,
 							user.last_name,
-							user.gender,
 							user.profile_pic,
 							user.locale,
-							user.timezone
-							
+							user.timezone,
+							user.gender
 						]);
 				}
 			}
