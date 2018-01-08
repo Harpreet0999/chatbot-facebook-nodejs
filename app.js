@@ -191,7 +191,9 @@ function handleEcho(messageId, appId, metadata) {
 function handleApiAiAction(sender, action, responseText, contexts, parameters) {
 	switch (action) {
 		default:
-		case jobs
+		case jobs:
+
+
 		let job=[
 		{
 			"title": "NodeJS ",
@@ -1705,7 +1707,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 		}
 ];
 sendGenericMessage(senderID,officefluid);
-	let job_reply =[
+	let jobreply =[
 		
 		{
         "content_type":"text",
@@ -1714,7 +1716,7 @@ sendGenericMessage(senderID,officefluid);
       }			
 		
 		];
-		sendQuickReply(sender,responseText,job_reply);
+		sendQuickReply(sender,responseText,jobreply);
 
 			break;
 
