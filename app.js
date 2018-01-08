@@ -191,8 +191,8 @@ function handleEcho(messageId, appId, metadata) {
 function handleApiAiAction(sender, action, responseText, contexts, parameters) {
 	switch (action) {
 		default:
-		case jobs:
-
+		case Opening:
+sendTextMessage(senderID,"Looking for a Job")
 
 		let reply =[
 		
