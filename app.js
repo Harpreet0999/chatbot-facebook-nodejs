@@ -926,10 +926,9 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
             "buttons": [
             {
 
-                            	 "type": "web_url",
-                "url": "http://www.fluidonomics.com/nodejs/",
-                "title": "Apply now",
-                "webview_height_ratio": "tall"
+                       "type": "postback",
+                "payload": "NodeJS",
+                "title": "Apply Now"
                               
                             
             },
@@ -972,10 +971,9 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
            "subtitle": "2+ Years",
             "buttons": [
               {
-              "type": "web_url",
-                "url": "http://www.fluidonomics.com/software-testing-pune/",
-                "title": "Apply now",
-                "webview_height_ratio": "tall"
+              "type": "postback",
+                "payload": "N",
+                "title": "Apply Now"
 			
               },
                {
@@ -1156,6 +1154,10 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 
 		];
 		sendGenericMessage(senderID,jbopening);
+		let replies =
+		{
+			
+		}
 		break;
 		case"services":
 		let fluidservices=[
