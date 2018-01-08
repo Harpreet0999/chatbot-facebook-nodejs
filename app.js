@@ -191,6 +191,255 @@ function handleEcho(messageId, appId, metadata) {
 function handleApiAiAction(sender, action, responseText, contexts, parameters) {
 	switch (action) {
 		default:
+		case jobs
+		let job=[
+		{
+			"title": "NodeJS ",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "subtitle": "| Full Stack Web Developer | 2+ Years",
+            "buttons": [
+            {
+
+                       "type": "postback",
+                "payload": "NodeJS",
+                "title": "Know More"
+                              
+                            
+            },
+              {
+              	 "type": "element_share",
+                "share_contents": { 
+                  "attachment": {
+                    "type": "template",
+                    "payload": {
+                      "template_type": "generic",
+                      "elements": [
+                       {
+                          "title": "NodeJS",
+                          
+                          "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+                          
+                          "buttons": [
+                            {
+                            	 "type": "web_url",
+                "url": "http://www.fluidonomics.com/nodejs/",
+                "title": "Know more",
+                "webview_height_ratio": "tall"
+                              
+                            }
+                          ]
+                        }
+                      ]
+
+             }
+         }
+     }
+
+              }
+            ]
+
+		},
+		{
+			"title": "QA Engineer",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+           "subtitle": "2+ Years",
+            "buttons": [
+              {
+              "type": "postback",
+                "payload": "Testing",
+                "title": "Know More"
+			
+              },
+               {
+              	 "type": "element_share",
+                "share_contents": { 
+                  "attachment": {
+                    "type": "template",
+                    "payload": {
+                      "template_type": "generic",
+                      "elements": [
+                       {
+                          "title": "QA Engineer",
+                          
+                          "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+                          
+                          "buttons": [
+                            {
+                        "type": "web_url",
+                "url": "http://www.fluidonomics.com/software-testing-pune/",
+                "title": "Apply now",
+                "webview_height_ratio": "tall"
+                              
+                            }
+                          ]
+                        }
+                      ]
+
+             }
+         }
+     }
+
+              }
+            ]
+
+		},
+		{
+			"title": "Sr. Java Developer ",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "subtitle": "4+ Years",
+            
+            "buttons": [
+              {
+               "type": "web_url",
+                "url": "http://www.fluidonomics.com/sr-java-developer-4-years/",
+                "title": "Know More",
+                "webview_height_ratio": "tall"
+                
+
+              },
+              {
+              	 "type": "element_share",
+                "share_contents": { 
+                  "attachment": {
+                    "type": "template",
+                    "payload": {
+                      "template_type": "generic",
+                      "elements": [
+                       {
+                          "title": "Java Developer",
+                          
+                          "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+                          
+                          "buttons": [
+                            {
+                            	"type": "web_url",
+                "url": "http://www.fluidonomics.com/sr-java-developer-4-years/",
+                "title": "Know More",
+                "webview_height_ratio": "tall"
+                              
+                            }
+                          ]
+                        }
+                      ]
+
+             }
+         }
+     }
+
+              }
+
+            ]
+
+		},
+	{
+			"title": "HR | Internship",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            
+            "buttons": [
+              {
+               "type": "web_url",
+                "url": "http://www.fluidonomics.com/hr-internship-pune/",
+                "title": "Know More",
+                "webview_height_ratio": "tall"
+                
+
+              },
+               {
+              	 "type": "element_share",
+                "share_contents": { 
+                  "attachment": {
+                    "type": "template",
+                    "payload": {
+                      "template_type": "generic",
+                      "elements": [
+                       {
+                          "title": "HR Internship",
+                          
+                          "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+                          
+                          "buttons": [
+                            {
+                            "type": "web_url",
+                "url": "http://www.fluidonomics.com/hr-internship-pune/",
+                "title": "Apply now",
+                "webview_height_ratio": "tall"
+                              
+                            }
+                          ]
+                        }
+                      ]
+
+             }
+         }
+     }
+
+              }
+            ]
+
+		},
+{
+			
+"title": "Security Testing",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "subtitle": "3+ Years",
+            "buttons": [
+              {
+               "type": "web_url",
+                "url": "http://www.fluidonomics.com/security-testing-3-years/",
+                "title": "Apply now",
+                "webview_height_ratio": "tall"
+                
+
+              },
+              {
+              	 "type": "element_share",
+                "share_contents": { 
+                  "attachment": {
+                    "type": "template",
+                    "payload": {
+                      "template_type": "generic",
+                      "elements": [
+                       {
+                          "title": "Security Testing",
+                          
+                          "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+                          
+                          "buttons": [
+                            {
+                            "type": "web_url",
+                "url": "http://www.fluidonomics.com/security-testing-3-years/",
+                "title": "Know More",
+                "webview_height_ratio": "tall"
+                              
+                            }
+                          ]
+                        }
+                      ]
+
+             }
+         }
+     }
+
+              }
+            ]
+
+		}
+
+
+		];
+		sendGenericMessage(senderID,job);
+		let reply =[
+		
+		{
+        "content_type":"text",
+        "title":"Apply Now",
+        "payload":"Apply"
+      }			
+		
+		];
+		sendQuickReply(sender,responseText,reply);
+
+		break;
 			//unhandled action, just send back the text
 			sendTextMessage(sender, responseText);
 	}
@@ -850,12 +1099,6 @@ function receivedPostback(event) {
                 "payload": "services",
                 "title": "Services"
 
-              },
-              {
-              	"type": "postback",
-                "payload": "Client",
-                "title": "Our Clients"
-                
               }
             ]
 
@@ -928,7 +1171,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 
                        "type": "postback",
                 "payload": "NodeJS",
-                "title": "Apply Now"
+                "title": "Know More"
                               
                             
             },
@@ -949,7 +1192,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
                             {
                             	 "type": "web_url",
                 "url": "http://www.fluidonomics.com/nodejs/",
-                "title": "Apply now",
+                "title": "Know more",
                 "webview_height_ratio": "tall"
                               
                             }
@@ -972,8 +1215,8 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
             "buttons": [
               {
               "type": "postback",
-                "payload": "N",
-                "title": "Apply Now"
+                "payload": "Testing",
+                "title": "Know More"
 			
               },
                {
@@ -1018,7 +1261,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
               {
                "type": "web_url",
                 "url": "http://www.fluidonomics.com/sr-java-developer-4-years/",
-                "title": "Apply now",
+                "title": "Know More",
                 "webview_height_ratio": "tall"
                 
 
@@ -1040,7 +1283,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
                             {
                             	"type": "web_url",
                 "url": "http://www.fluidonomics.com/sr-java-developer-4-years/",
-                "title": "Apply now",
+                "title": "Know More",
                 "webview_height_ratio": "tall"
                               
                             }
@@ -1065,7 +1308,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
               {
                "type": "web_url",
                 "url": "http://www.fluidonomics.com/hr-internship-pune/",
-                "title": "Apply now",
+                "title": "Know More",
                 "webview_height_ratio": "tall"
                 
 
@@ -1134,7 +1377,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
                             {
                             "type": "web_url",
                 "url": "http://www.fluidonomics.com/security-testing-3-years/",
-                "title": "Apply now",
+                "title": "Know More",
                 "webview_height_ratio": "tall"
                               
                             }
@@ -1156,7 +1399,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 		sendGenericMessage(senderID,jbopening);
 		let replies =
 		{
-			
+
 		}
 		break;
 		case"services":
@@ -1462,6 +1705,16 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 		}
 ];
 sendGenericMessage(senderID,officefluid);
+	let job_reply =[
+		
+		{
+        "content_type":"text",
+        "title":"Apply Now",
+        "payload":"Apply"
+      }			
+		
+		];
+		sendQuickReply(sender,responseText,job_reply);
 
 			break;
 
