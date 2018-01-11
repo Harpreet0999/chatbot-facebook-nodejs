@@ -883,11 +883,11 @@ function receivedPostback(event) {
         
 		];
 
-		sendGenericMessage(senderID,about_fluid);
+		
 		sendTypingOn(senderID);
 		sendTextMessage(senderID,"Technology Solutions company with modern techno-creative fluid blend as its principle."+" Developing economically feasible, artistically adaptable, and technically cutting edge solutions as its focus.");
 sendTextMessage(senderID, "Based on stage goals of organization we serve through choice of tracks. Acceleration, Build, Change, Direct and Economize"+" We promise no box-pushing, no hyper-specialization cacophony and no take your pick selling"+" We are a Perfect Fluid Blend of Art and Science");
-
+sendGenericMessage(senderID,about_fluid);
 		break;
 		case"Contact":
 		sendToApiAi(senderID,"Contact");
@@ -929,8 +929,54 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 
 		let jbopening=[
 		{
+			"title": "DBA MYSQL App.support",
+            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/12/database-schema-1895779_1280-600x403.png"
+            "subtitle": "Database MYSQL apllication support Engineer, 2-4 Years",
+            "buttons": [
+            {
+
+                       "type": "postback",
+                "payload": "DBA",
+                "title": "Know More"
+                              
+                            
+            },
+              {
+z              	 "type": "element_share",
+                "share_contents": { 
+                  "attachment": {
+                    "type": "template",
+                    "payload": {
+                      "template_type": "generic",
+                      "elements": [
+                       {
+                          "title": "DBA MYSQL App.support",
+                          
+                          "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/12/database-schema-1895779_1280-600x403.png",
+                          
+                          "buttons": [
+                            {
+                            	 "type": "web_url",
+                "url": "http://www.fluidonomics.com/mysql/",
+                "title": "Know more",
+                "webview_height_ratio": "tall"
+                              
+                            }
+                          ]
+                        }
+                      ]
+
+             }
+         }
+     }
+
+              }
+            ]
+
+		},
+		{
 			"title": "NodeJS ",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/12/nodeJSopt-600x403.jpg",
             "subtitle": "| Full Stack Web Developer | 2+ Years",
             "buttons": [
             {
@@ -942,7 +988,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
                             
             },
               {
-              	 "type": "element_share",
+z              	 "type": "element_share",
                 "share_contents": { 
                   "attachment": {
                     "type": "template",
@@ -952,7 +998,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
                        {
                           "title": "NodeJS",
                           
-                          "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+                          "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/12/nodeJSopt-600x403.jpg",
                           
                           "buttons": [
                             {
@@ -976,7 +1022,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 		},
 		{
 			"title": "QA Engineer",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2016/06/testing-web-600x403.jpg",
            "subtitle": "2+ Years",
             "buttons": [
               {
@@ -996,7 +1042,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
                        {
                           "title": "QA Engineer",
                           
-                          "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+                          "image_url": "http://www.fluidonomics.com/wp-content/uploads/2016/06/testing-web-600x403.jpg",
                           
                           "buttons": [
                             {
@@ -1020,7 +1066,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 		},
 		{
 			"title": "Sr. Java Developer ",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/08/JAVAopt-600x403.jpg",
             "subtitle": "4+ Years",
             
             "buttons": [
@@ -1043,7 +1089,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
                        {
                           "title": "Java Developer",
                           
-                          "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+                          "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/08/JAVAopt-600x403.jpg",
                           
                           "buttons": [
                             {
@@ -1068,7 +1114,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 		},
 	{
 			"title": "HR | Internship",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/03/HR-Internship-1-600x403.png",
             
             "buttons": [
               {
@@ -1090,7 +1136,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
                        {
                           "title": "HR Internship",
                           
-                          "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+                          "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/03/HR-Internship-1-600x403.png",
                           
                           "buttons": [
                             {
@@ -1115,7 +1161,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 {
 			
 "title": "Security Testing",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/12/security-Testing-image-600x403.jpg",
             "subtitle": "3+ Years",
             "buttons": [
               {
@@ -1137,7 +1183,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
                        {
                           "title": "Security Testing",
                           
-                          "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+                          "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/12/security-Testing-image-600x403.jpg",
                           
                           "buttons": [
                             {
@@ -1207,17 +1253,10 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
             
         }
 		];
-		let fluidreplies=[
-		{
-			"content_type":"Text",
-        "title":"Main Menu",
-        "payload":"default"
-		}
-
-		]
+		
 
 		sendGenericMessage(senderID,fluidservices);
-		sendQuickReply(senderID,fluidreplies);
+		
 
 		break;
 
@@ -1230,7 +1269,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 			let ele=[
 	{
 			"title": "Fluidonomics",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "image_url": "https://drive.google.com/uc?export=view&id=1qzPbg6mX-tZMCLD54IhVtV9_K95LDFUm",
             "subtitle": "Technology Solutions company",
             "buttons": [
               {
@@ -1252,7 +1291,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 		},
 		{
 			"title": "Jobs",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "image_url": "https://drive.google.com/uc?export=view&id=1cLkmfptrOYzOM5rtH_T70Mlx29yfIsUC",
             "subtitle": "Find Current Openings and Apply for Jobs",
             "buttons": [
               {
@@ -1266,7 +1305,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 		},
 		{
 			"title": "Contact",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "image_url": "https://drive.google.com/uc?export=view&id=1APXbC8pvW2QChj1sWmSOQiMtsgKirhLU",
             "subtitle": "Conatct Us",
             "buttons": [
               {
@@ -1285,7 +1324,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 		},
 		{
 			"title": "Offices",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "image_url": "https://drive.google.com/uc?export=view&id=1mrJrLQ3S7WSXhtr2NdTweJRsTdmdLv9q",
             "subtitle": "Pune, Indore and Ujjain",
             "buttons": [
               {
@@ -1302,7 +1341,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 		},
 		{
 			"title": "Services",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "image_url": "https://drive.google.com/uc?export=view&id=19cU9Z7kl2nUVsOkiWwMv4m1YcRlI0wP_",
             "subtitle": "Services Provided by Fluidonomics",
             "buttons": [
               {
@@ -1310,12 +1349,6 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
                 "payload": "services",
                 "title": "Services"
 
-              },
-              {
-              	"type": "postback",
-                "payload": "Client",
-                "title": "Our Clients"
-                
               }
             ]
 

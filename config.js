@@ -14,5 +14,6 @@ module.exports = {
     	idleTimeoutMillis: 30000,
 
     },
+    dba_image="http://www.fluidonomics.com/wp-content/uploads/2017/12/database-schema-1895779_1280-600x403.png",
     
 };
