@@ -883,11 +883,11 @@ function receivedPostback(event) {
         
 		];
 
-		
+		sendGenericMessage(senderID,about_fluid);
 		sendTypingOn(senderID);
 		sendTextMessage(senderID,"Technology Solutions company with modern techno-creative fluid blend as its principle."+" Developing economically feasible, artistically adaptable, and technically cutting edge solutions as its focus.");
 sendTextMessage(senderID, "Based on stage goals of organization we serve through choice of tracks. Acceleration, Build, Change, Direct and Economize"+" We promise no box-pushing, no hyper-specialization cacophony and no take your pick selling"+" We are a Perfect Fluid Blend of Art and Science");
-sendGenericMessage(senderID,about_fluid);
+
 		break;
 		case"Contact":
 		sendToApiAi(senderID,"Contact");
@@ -1269,7 +1269,7 @@ z              	 "type": "element_share",
 			let ele=[
 	{
 			"title": "Fluidonomics",
-            "image_url": "https://drive.google.com/uc?export=view&id=1qzPbg6mX-tZMCLD54IhVtV9_K95LDFUm",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
             "subtitle": "Technology Solutions company",
             "buttons": [
               {
@@ -1291,7 +1291,7 @@ z              	 "type": "element_share",
 		},
 		{
 			"title": "Jobs",
-            "image_url": "https://drive.google.com/uc?export=view&id=1cLkmfptrOYzOM5rtH_T70Mlx29yfIsUC",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
             "subtitle": "Find Current Openings and Apply for Jobs",
             "buttons": [
               {
@@ -1305,7 +1305,7 @@ z              	 "type": "element_share",
 		},
 		{
 			"title": "Contact",
-            "image_url": "https://drive.google.com/uc?export=view&id=1APXbC8pvW2QChj1sWmSOQiMtsgKirhLU",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
             "subtitle": "Conatct Us",
             "buttons": [
               {
@@ -1324,7 +1324,7 @@ z              	 "type": "element_share",
 		},
 		{
 			"title": "Offices",
-            "image_url": "https://drive.google.com/uc?export=view&id=1mrJrLQ3S7WSXhtr2NdTweJRsTdmdLv9q",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
             "subtitle": "Pune, Indore and Ujjain",
             "buttons": [
               {
@@ -1341,7 +1341,7 @@ z              	 "type": "element_share",
 		},
 		{
 			"title": "Services",
-            "image_url": "https://drive.google.com/uc?export=view&id=19cU9Z7kl2nUVsOkiWwMv4m1YcRlI0wP_",
+            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
             "subtitle": "Services Provided by Fluidonomics",
             "buttons": [
               {
@@ -1349,6 +1349,12 @@ z              	 "type": "element_share",
                 "payload": "services",
                 "title": "Services"
 
+              },
+              {
+              	"type": "postback",
+                "payload": "Client",
+                "title": "Our Clients"
+                
               }
             ]
 
