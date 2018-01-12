@@ -1595,8 +1595,6 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 		}
 ];
 sendGenericMessage(senderID,officefluid);		
-		
-		];
 
 			break;
 
