@@ -1221,7 +1221,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
             {
 
                 "type": "postback",
-                "payload": "NodeJS",
+                "payload": "node_job",
                 "title": "Know More"
                               
                             
@@ -1598,7 +1598,7 @@ sendGenericMessage(senderID,officefluid);
 
 			break;
 
-case NodeJS:
+case node_job:
 sendImageMessage(senderID,"http://www.fluidonomics.com/wp-content/uploads/2017/12/nodeJSopt.jpg");
 sendTypingOn(senderID);
 sendTextMessage(senderID,"Experience:-2-4 Years | Qualification:-BE / BTech / BCA / MCA");
