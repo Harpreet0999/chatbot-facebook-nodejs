@@ -1113,7 +1113,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
               {
                "type": "web_url",
                 "url": "http://www.fluidonomics.com/security-testing-3-years/",
-                "title": "Apply now",
+                "title": "Know more",
                 "webview_height_ratio": "tall"
                 
 
@@ -1213,99 +1213,238 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 		default:
 			//unindentified payload
 			let ele=[
-	{
-			"title": "Fluidonomics",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
-            "subtitle": "Technology Solutions company",
+			{
+			"title": "NodeJS ",
+            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/12/nodeJSopt-600x403.jpg",
+            "subtitle": "| Full Stack Web Developer | 2+ Years",
             "buttons": [
-              {
-               "type": "postback",
-                "payload": "About_us",
-                "title": "About us"
+            {
 
-              },
+                       "type": "postback",
+                "payload": "NodeJS",
+                "title": "Know More"
+                              
+                            
+            },
               {
-           
-                "type": "web_url",
-                "url": "http://www.fluidonomics.com/",
-                "title": "Website",
+             	 "type": "element_share",
+                "share_contents": { 
+                  "attachment": {
+                    "type": "template",
+                    "payload": {
+                      "template_type": "generic",
+                      "elements": [
+                       {
+                          "title": "NodeJS",
+                          
+                          "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/12/nodeJSopt-600x403.jpg",
+                          
+                          "buttons": [
+                            {
+                            	 "type": "web_url",
+                "url": "http://www.fluidonomics.com/nodejs/",
+                "title": "Know more",
                 "webview_height_ratio": "tall"
+                              
+                            }
+                          ]
+                        }
+                      ]
+
+             }
+         }
+     }
 
               }
             ]
 
 		},
 		{
-			"title": "Jobs",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
-            "subtitle": "Find Current Openings and Apply for Jobs",
+			"title": "QA Engineer",
+            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2016/06/testing-web-600x403.jpg",
+           "subtitle": "2+ Years",
             "buttons": [
               {
-               "type": "postback",
-                "payload": "Openings",
-                "title": "Current Opening"
+              "type": "postback",
+                "payload": "Testing",
+                "title": "Know More"
+			
+              },
+               {
+              	 "type": "element_share",
+                "share_contents": { 
+                  "attachment": {
+                    "type": "template",
+                    "payload": {
+                      "template_type": "generic",
+                      "elements": [
+                       {
+                          "title": "QA Engineer",
+                          
+                          "image_url": "http://www.fluidonomics.com/wp-content/uploads/2016/06/testing-web-600x403.jpg",
+                          
+                          "buttons": [
+                            {
+                        "type": "web_url",
+                "url": "http://www.fluidonomics.com/software-testing-pune/",
+                "title": "Apply now",
+                "webview_height_ratio": "tall"
+                              
+                            }
+                          ]
+                        }
+                      ]
+
+             }
+         }
+     }
 
               }
             ]
 
 		},
 		{
-			"title": "Contact",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
-            "subtitle": "Conatct Us",
+			"title": "Sr. Java Developer ",
+            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/08/JAVAopt-600x403.jpg",
+            "subtitle": "4+ Years",
+            
             "buttons": [
               {
-               "type": "postback",
-                "payload": "Email",
-                "title": "Email"
+               "type": "web_url",
+                "url": "http://www.fluidonomics.com/sr-java-developer-4-years/",
+                "title": "Know More",
+                "webview_height_ratio": "tall"
+                
 
               },
               {
-                "type": "postback",
-                "payload": "Contact_man",
-                "title": "Management"
+              	 "type": "element_share",
+                "share_contents": { 
+                  "attachment": {
+                    "type": "template",
+                    "payload": {
+                      "template_type": "generic",
+                      "elements": [
+                       {
+                          "title": "Java Developer",
+                          
+                          "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/08/JAVAopt-600x403.jpg",
+                          
+                          "buttons": [
+                            {
+                            	"type": "web_url",
+                "url": "http://www.fluidonomics.com/sr-java-developer-4-years/",
+                "title": "Know More",
+                "webview_height_ratio": "tall"
+                              
+                            }
+                          ]
+                        }
+                      ]
+
+             }
+         }
+     }
+
               }
+
             ]
 
 		},
-		{
-			"title": "Offices",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
-            "subtitle": "Pune, Indore and Ujjain",
+	{
+			"title": "HR | Internship",
+            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/03/HR-Internship-1-600x403.png",
+            
             "buttons": [
               {
-               "type": "postback",
-                "payload": "Offices",
-                "title": "Details"
-
-              }
-             
+               "type": "web_url",
+                "url": "http://www.fluidonomics.com/hr-internship-pune/",
+                "title": "Know More",
+                "webview_height_ratio": "tall"
                 
-              
+
+              },
+               {
+              	 "type": "element_share",
+                "share_contents": { 
+                  "attachment": {
+                    "type": "template",
+                    "payload": {
+                      "template_type": "generic",
+                      "elements": [
+                       {
+                          "title": "HR Internship",
+                          
+                          "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/03/HR-Internship-1-600x403.png",
+                          
+                          "buttons": [
+                            {
+                            "type": "web_url",
+                "url": "http://www.fluidonomics.com/hr-internship-pune/",
+                "title": "Apply now",
+                "webview_height_ratio": "tall"
+                              
+                            }
+                          ]
+                        }
+                      ]
+
+             }
+         }
+     }
+
+              }
             ]
 
 		},
-		{
-			"title": "Services",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
-            "subtitle": "Services Provided by Fluidonomics",
+{
+			
+"title": "Security Testing",
+            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/12/security-Testing-image-600x403.jpg",
+            "subtitle": "3+ Years",
             "buttons": [
               {
-               "type": "postback",
-                "payload": "services",
-                "title": "Services"
+               "type": "web_url",
+                "url": "http://www.fluidonomics.com/security-testing-3-years/",
+                "title": "Apply now",
+                "webview_height_ratio": "tall"
+                
 
               },
               {
-              	"type": "postback",
-                "payload": "Client",
-                "title": "Our Clients"
-                
+              	 "type": "element_share",
+                "share_contents": { 
+                  "attachment": {
+                    "type": "template",
+                    "payload": {
+                      "template_type": "generic",
+                      "elements": [
+                       {
+                          "title": "Security Testing",
+                          
+                          "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/12/security-Testing-image-600x403.jpg",
+                          
+                          "buttons": [
+                            {
+                            "type": "web_url",
+                "url": "http://www.fluidonomics.com/security-testing-3-years/",
+                "title": "Know More",
+                "webview_height_ratio": "tall"
+                              
+                            }
+                          ]
+                        }
+                      ]
+
+             }
+         }
+     }
+
               }
             ]
 
 		}
-
+	
 
 		];
 		sendGenericMessage(senderID,ele);
@@ -1315,7 +1454,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 			let officefluid = [
 			{
 			"title": "Pune ",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "image_url": "",
             "subtitle": "Office #3, Surya Suman Building, Lane #2 / Road #15, Kalyani Nagar, Pune, Maharashtra 411006",
             "buttons": [
             {
@@ -1336,9 +1475,9 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
                       "template_type": "generic",
                       "elements": [
                        {
-                          "title": "NodeJS",
+                          "title": "Pune",
                           
-                          "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+                          "image_url": "",
                           
                           "buttons": [
                             {
@@ -1363,7 +1502,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 		},
 		{
 			"title": "Indore",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "image_url": "https://drive.google.com/uc?export=view&id=1J1GZfvbEZNTiS2cjB4xfzP9_UFUIA7EDYO",
            "subtitle": "Rajani Bhawan, Mahatma Gandhi Rd, Nehru Park 2, Shivaji Nagar, Indore",
             "buttons": [
               {
@@ -1382,9 +1521,9 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
                       "template_type": "generic",
                       "elements": [
                        {
-                          "title": "QA Engineer",
+                          "title": "Indore",
                           
-                          "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+                          "image_url": "https://drive.google.com/uc?export=view&id=1J1GZfvbEZNTiS2cjB4xfzP9_UFUIA7EDYO",
                           
                           "buttons": [
                             {
@@ -1408,7 +1547,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 		},
 		{
 			"title": "Ujjain",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "image_url": "https://drive.google.com/uc?export=view&id=1J-qSI-bxRU7d8ZXNbOWyddkk0mh78Vs5",
             "subtitle": "74 Sakhipura, Indore Gate, Ujjain Madhya Pardesh ",
             
             "buttons": [
@@ -1429,9 +1568,9 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
                       "template_type": "generic",
                       "elements": [
                        {
-                          "title": "Java Developer",
+                          "title": "Ujjain",
                           
-                          "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+                          "image_url": "https://drive.google.com/uc?export=view&id=1J-qSI-bxRU7d8ZXNbOWyddkk0mh78Vs5",
                           
                           "buttons": [
                             {
