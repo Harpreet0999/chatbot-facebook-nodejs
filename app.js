@@ -1454,7 +1454,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 			let officefluid = [
 			{
 			"title": "Pune ",
-            "image_url": "",
+            "image_url": "https://drive.google.com/uc?export=view&id=1mrJrLQ3S7WSXhtr2NdTweJRsTdmdLv9q",
             "subtitle": "Office #3, Surya Suman Building, Lane #2 / Road #15, Kalyani Nagar, Pune, Maharashtra 411006",
             "buttons": [
             {
@@ -1477,7 +1477,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
                        {
                           "title": "Pune",
                           
-                          "image_url": "",
+                          "image_url": "https://drive.google.com/uc?export=view&id=1mrJrLQ3S7WSXhtr2NdTweJRsTdmdLv9q",
                           
                           "buttons": [
                             {
@@ -1502,7 +1502,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 		},
 		{
 			"title": "Indore",
-            "image_url": "https://drive.google.com/uc?export=view&id=1J1GZfvbEZNTiS2cjB4xfzP9_UFUIA7EDYO",
+            "image_url": "https://drive.google.com/uc?export=view&id=1GZfvbEZNTiS2cjB4xfzP9_UFUIA7EDYO",
            "subtitle": "Rajani Bhawan, Mahatma Gandhi Rd, Nehru Park 2, Shivaji Nagar, Indore",
             "buttons": [
               {
@@ -1523,7 +1523,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
                        {
                           "title": "Indore",
                           
-                          "image_url": "https://drive.google.com/uc?export=view&id=1J1GZfvbEZNTiS2cjB4xfzP9_UFUIA7EDYO",
+                          "image_url": "https://drive.google.com/uc?export=view&id=1GZfvbEZNTiS2cjB4xfzP9_UFUIA7EDYO",
                           
                           "buttons": [
                             {
@@ -1594,37 +1594,20 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 
 		}
 ];
-sendGenericMessage(senderID,officefluid);
-	let jobreply =[
-		
-		{
-        "content_type":"text",
-        "title":"Apply Now",
-        "payload":"Apply"
-      }			
+sendGenericMessage(senderID,officefluid);		
 		
 		];
-		sendQuickReply(sender,responseText,jobreply);
 
 			break;
 
-		case NodeJS:
-		sendImageMessage(senderID,"http://www.fluidonomics.com/wp-content/uploads/2017/12/nodeJSopt.jpg");
+case NodeJS:
+sendImageMessage(senderID,"http://www.fluidonomics.com/wp-content/uploads/2017/12/nodeJSopt.jpg");
+sendTypingOn(senderID);
+sendTextMessage(senderID,"Experience:-2-4 Years | Qualification:-BE / BTech / BCA / MCA");
+sendTextMessage(senderID,"Required Skills:-Full Stack Developers with proven expertise in Node JS.Hands on with AJAX, XML, JSON, CSS3, HTML5, Bootstrap 2.0, MySQL, MongoDB, NodeJS, ExpressJS, ReactJS and related technologies.");
+sendTextMessage(senderID,"Highly efficient in JavaScript libraries and frameworks"+"Optional Skills"+" Exposure to AWS, Big Data, NLP, ChatBots, React Native, Firebase"+ " Exposure to any MVC framework");
+sendTextMessage(senderID,"Responsibilities"+"End to End contribution to technology oriented development projects."+"Providing solutions with minimum system requirements and in Agile Mode."+ "Custom development of new Platforms & Solutions");
 
-		sendTextMessage(senderID,"Experience:-2-4 Years | Qualification:-BE / BTech / BCA / MCA");
-		sendTextMessage(senderID,"Required Skills:-Full Stack Developers with proven expertise in Node JS.Hands on with AJAX, XML, JSON, CSS3, HTML5, Bootstrap 2.0, MySQL, MongoDB, NodeJS, ExpressJS, ReactJS and related technologies."
-			+"Highly efficient in JavaScript libraries and frameworks"
-+"Optional Skills"
-  +" Exposure to AWS, Big Data, NLP, ChatBots, React Native, Firebase"
-  + " Exposure to any MVC framework");
-		sendImageMessage(senderID,"http://www.fluidonomics.com/wp-content/uploads/2017/12/nodeJSopt.jpg");
-
-		sendTextMessage(senderID,"Responsibilities"
-
-   +"End to End contribution to technology oriented development projects."+
-    "Providing solutions with minimum system requirements and in Agile Mode."+
-    "Custom development of new Platforms & Solutions");
-		
 		break;
 
 	}
