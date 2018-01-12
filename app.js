@@ -928,52 +928,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 		case"Openings":
 
 		let jbopening=[
-		{
-			"title": "DBA MYSQL App.support",
-            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/12/database-schema-1895779_1280-600x403.png"
-            "subtitle": "Database MYSQL apllication support Engineer 2-4 Years",
-            "buttons": [
-            {
-
-                       "type": "postback",
-                "payload": "DBA",
-                "title": "Know More"
-                              
-                            
-            },
-              {
-z              	 "type": "element_share",
-                "share_contents": { 
-                  "attachment": {
-                    "type": "template",
-                    "payload": {
-                      "template_type": "generic",
-                      "elements": [
-                       {
-                          "title": "DBA MYSQL App.support",
-                          
-                          "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/12/database-schema-1895779_1280-600x403.png",
-                          
-                          "buttons": [
-                            {
-                            	 "type": "web_url",
-                "url": "http://www.fluidonomics.com/mysql/",
-                "title": "Know more",
-                "webview_height_ratio": "tall"
-                              
-                            }
-                          ]
-                        }
-                      ]
-
-             }
-         }
-     }
-
-              }
-            ]
-
-		},
+		
 		{
 			"title": "NodeJS ",
             "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/12/nodeJSopt-600x403.jpg",
@@ -988,7 +943,7 @@ z              	 "type": "element_share",
                             
             },
               {
-z              	 "type": "element_share",
+             	 "type": "element_share",
                 "share_contents": { 
                   "attachment": {
                     "type": "template",
