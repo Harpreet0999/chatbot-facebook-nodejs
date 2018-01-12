@@ -1220,7 +1220,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
             "buttons": [
             {
 
-                       "type": "postback",
+                "type": "postback",
                 "payload": "NodeJS",
                 "title": "Know More"
                               
@@ -1406,7 +1406,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
               {
                "type": "web_url",
                 "url": "http://www.fluidonomics.com/security-testing-3-years/",
-                "title": "Apply now",
+                "title": "Know More",
                 "webview_height_ratio": "tall"
                 
 
@@ -1607,6 +1607,25 @@ sendGenericMessage(senderID,officefluid);
 		sendQuickReply(sender,responseText,jobreply);
 
 			break;
+
+		case NodeJS:
+		sendImageMessage(senderID,"http://www.fluidonomics.com/wp-content/uploads/2017/12/nodeJSopt.jpg");
+
+		sendTextMessage(senderID,"Experience:-2-4 Years | Qualification:-BE / BTech / BCA / MCA");
+		sendTextMessage(senderID,"Required Skills:-Full Stack Developers with proven expertise in Node JS.Hands on with AJAX, XML, JSON, CSS3, HTML5, Bootstrap 2.0, MySQL, MongoDB, NodeJS, ExpressJS, ReactJS and related technologies."
+			+"Highly efficient in JavaScript libraries and frameworks"
++"Optional Skills"
+  +" Exposure to AWS, Big Data, NLP, ChatBots, React Native, Firebase"
+  + " Exposure to any MVC framework");
+		sendImageMessage(senderID,"http://www.fluidonomics.com/wp-content/uploads/2017/12/nodeJSopt.jpg");
+
+		sendTextMessage(senderID,"Responsibilities"
+
+   +"End to End contribution to technology oriented development projects."+
+    "Providing solutions with minimum system requirements and in Agile Mode."+
+    "Custom development of new Platforms & Solutions");
+		
+		break;
 
 	}
 
