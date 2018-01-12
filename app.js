@@ -868,7 +868,7 @@ function receivedPostback(event) {
               }
             ]
 
-		}
+		}	
 		];
 		sendGenericMessage(senderID,delements);
 
@@ -931,7 +931,7 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 		{
 			"title": "DBA MYSQL App.support",
             "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/12/database-schema-1895779_1280-600x403.png"
-            "subtitle": "Database MYSQL apllication support Engineer, 2-4 Years",
+            "subtitle": "Database MYSQL apllication support Engineer 2-4 Years",
             "buttons": [
             {
 
