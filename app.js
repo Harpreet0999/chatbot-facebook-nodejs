@@ -880,7 +880,7 @@ function receivedPostback(event) {
 		
 
 		sendTextMessage(senderID,"Technology Solutions company with modern techno-creative fluid blend as its principle."+" Developing economically feasible, artistically adaptable, and technically cutting edge solutions as its focus.");
-fbService.sendTypingOn(sender),
+fbService.sendTypingOn(senderID),
 sendTextMessage(senderID, "Based on stage goals of organization we serve through choice of tracks. Acceleration, Build, Change, Direct and Economize"+" We promise no box-pushing, no hyper-specialization cacophony and no take your pick selling"+" We are a Perfect Fluid Blend of Art and Science");
 sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/05/know-1.jpg");
 		break;
