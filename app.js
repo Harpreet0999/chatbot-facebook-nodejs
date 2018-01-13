@@ -7,7 +7,6 @@ const crypto = require('crypto');
 const fbService = require('./fb-service/fb-service');
 const bodyParser = require('body-parser');
 const request = require('request');
-let sendToApiAi = require('./apiai-service/sendToApiAi');
 const app = express();
 const uuid = require('uuid');
 const pg = require('pg');
