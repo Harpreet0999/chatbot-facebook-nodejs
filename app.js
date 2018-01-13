@@ -1213,236 +1213,92 @@ sendTextMessage(senderID, "Based on stage goals of organization we serve through
 			//unindentified payload
 			let ele=[
 			{
-			"title": "NodeJS ",
-            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/12/nodeJSopt-600x403.jpg",
-            "subtitle": "| Full Stack Web Developer | 2+ Years",
+			"title": "Fluidonomics",
+            "image_url": "https://drive.google.com/uc?export=view&id=1qzPbg6mX-tZMCLD54IhVtV9_K95LDFUm",
+            "subtitle": "Technology Solutions company",
             "buttons": [
-            {
+              {
+               "type": "postback",
+                "payload": "About_us",
+                "title": "About us"
 
+              },
+              {
+           
+                "type": "web_url",
+                "url": "http://www.fluidonomics.com/",
+                "title": "Website",
+                "webview_height_ratio": "tall"
+
+              }
+            ]
+
+		},
+		{
+			"title": "Jobs",
+            "image_url": "https://drive.google.com/uc?export=view&id=1cLkmfptrOYzOM5rtH_T70Mlx29yfIsUC",
+            "subtitle": "Find Current Openings and Apply for Jobs",
+            "buttons": [
+              {
+               "type": "postback",
+                "payload": "Openings",
+                "title": "Current Opening"
+
+              }
+            ]
+
+		},
+		{
+			"title": "Contact",
+            "image_url": "https://drive.google.com/uc?export=view&id=1APXbC8pvW2QChj1sWmSOQiMtsgKirhLU",
+            "subtitle": "Conatct Us",
+            "buttons": [
+              {
+               "type": "postback",
+                "payload": "Email",
+                "title": "Email"
+
+              },
+              {
                 "type": "postback",
-                "payload": "node_job",
-                "title": "Know More"
-                              
-                            
-            },
-              {
-             	 "type": "element_share",
-                "share_contents": { 
-                  "attachment": {
-                    "type": "template",
-                    "payload": {
-                      "template_type": "generic",
-                      "elements": [
-                       {
-                          "title": "NodeJS",
-                          
-                          "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/12/nodeJSopt-600x403.jpg",
-                          
-                          "buttons": [
-                            {
-                            	 "type": "web_url",
-                "url": "http://www.fluidonomics.com/nodejs/",
-                "title": "Know more",
-                "webview_height_ratio": "tall"
-                              
-                            }
-                          ]
-                        }
-                      ]
-
-             }
-         }
-     }
-
+                "payload": "Contact_man",
+                "title": "Management"
               }
             ]
 
 		},
 		{
-			"title": "QA Engineer",
-            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2016/06/testing-web-600x403.jpg",
-           "subtitle": "2+ Years",
+			"title": "Offices",
+            "image_url": "https://drive.google.com/uc?export=view&id=1mrJrLQ3S7WSXhtr2NdTweJRsTdmdLv9q",
+            "subtitle": "Pune, Indore and Ujjain",
             "buttons": [
               {
-              "type": "postback",
-                "payload": "Testing",
-                "title": "Know More"
-			
-              },
-               {
-              	 "type": "element_share",
-                "share_contents": { 
-                  "attachment": {
-                    "type": "template",
-                    "payload": {
-                      "template_type": "generic",
-                      "elements": [
-                       {
-                          "title": "QA Engineer",
-                          
-                          "image_url": "http://www.fluidonomics.com/wp-content/uploads/2016/06/testing-web-600x403.jpg",
-                          
-                          "buttons": [
-                            {
-                        "type": "web_url",
-                "url": "http://www.fluidonomics.com/software-testing-pune/",
-                "title": "Apply now",
-                "webview_height_ratio": "tall"
-                              
-                            }
-                          ]
-                        }
-                      ]
-
-             }
-         }
-     }
+               "type": "postback",
+                "payload": "Offices",
+                "title": "Details"
 
               }
+             
+                
+              
             ]
 
 		},
 		{
-			"title": "Sr. Java Developer ",
-            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/08/JAVAopt-600x403.jpg",
-            "subtitle": "4+ Years",
-            
+			"title": "Services",
+            "image_url": "https://drive.google.com/uc?export=view&id=19cU9Z7kl2nUVsOkiWwMv4m1YcRlI0wP_",
+            "subtitle": "Services Provided by Fluidonomics",
             "buttons": [
               {
-               "type": "web_url",
-                "url": "http://www.fluidonomics.com/sr-java-developer-4-years/",
-                "title": "Know More",
-                "webview_height_ratio": "tall"
-                
-
-              },
-              {
-              	 "type": "element_share",
-                "share_contents": { 
-                  "attachment": {
-                    "type": "template",
-                    "payload": {
-                      "template_type": "generic",
-                      "elements": [
-                       {
-                          "title": "Java Developer",
-                          
-                          "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/08/JAVAopt-600x403.jpg",
-                          
-                          "buttons": [
-                            {
-                            	"type": "web_url",
-                "url": "http://www.fluidonomics.com/sr-java-developer-4-years/",
-                "title": "Know More",
-                "webview_height_ratio": "tall"
-                              
-                            }
-                          ]
-                        }
-                      ]
-
-             }
-         }
-     }
-
-              }
-
-            ]
-
-		},
-	{
-			"title": "HR | Internship",
-            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/03/HR-Internship-1-600x403.png",
-            
-            "buttons": [
-              {
-               "type": "web_url",
-                "url": "http://www.fluidonomics.com/hr-internship-pune/",
-                "title": "Know More",
-                "webview_height_ratio": "tall"
-                
-
-              },
-               {
-              	 "type": "element_share",
-                "share_contents": { 
-                  "attachment": {
-                    "type": "template",
-                    "payload": {
-                      "template_type": "generic",
-                      "elements": [
-                       {
-                          "title": "HR Internship",
-                          
-                          "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/03/HR-Internship-1-600x403.png",
-                          
-                          "buttons": [
-                            {
-                            "type": "web_url",
-                "url": "http://www.fluidonomics.com/hr-internship-pune/",
-                "title": "Apply now",
-                "webview_height_ratio": "tall"
-                              
-                            }
-                          ]
-                        }
-                      ]
-
-             }
-         }
-     }
+               "type": "postback",
+                "payload": "services",
+                "title": "Services"
 
               }
             ]
 
-		},
-{
-			
-"title": "Security Testing",
-            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/12/security-Testing-image-600x403.jpg",
-            "subtitle": "3+ Years",
-            "buttons": [
-              {
-               "type": "web_url",
-                "url": "http://www.fluidonomics.com/security-testing-3-years/",
-                "title": "Know More",
-                "webview_height_ratio": "tall"
-                
+		}	
 
-              },
-              {
-              	 "type": "element_share",
-                "share_contents": { 
-                  "attachment": {
-                    "type": "template",
-                    "payload": {
-                      "template_type": "generic",
-                      "elements": [
-                       {
-                          "title": "Security Testing",
-                          
-                          "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/12/security-Testing-image-600x403.jpg",
-                          
-                          "buttons": [
-                            {
-                            "type": "web_url",
-                "url": "http://www.fluidonomics.com/security-testing-3-years/",
-                "title": "Know More",
-                "webview_height_ratio": "tall"
-                              
-                            }
-                          ]
-                        }
-                      ]
-
-             }
-         }
-     }
-
-              }
-            ]
-
-		}
 	
 
 		];
