@@ -4,8 +4,10 @@ const apiai = require('apiai');
 const config = require('./config');
 const express = require('express');
 const crypto = require('crypto');
+const fbService = require('./fb-service/fb-service');
 const bodyParser = require('body-parser');
 const request = require('request');
+let sendToApiAi = require('./apiai-service/sendToApiAi');
 const app = express();
 const uuid = require('uuid');
 const pg = require('pg');
@@ -875,11 +877,13 @@ function receivedPostback(event) {
 		break;
 		case"About_us":
 	
-		sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/05/know-1.jpg");
-		sendTypingOn(senderID);
-		sendTextMessage(senderID,"Technology Solutions company with modern techno-creative fluid blend as its principle."+" Developing economically feasible, artistically adaptable, and technically cutting edge solutions as its focus.");
-sendTextMessage(senderID, "Based on stage goals of organization we serve through choice of tracks. Acceleration, Build, Change, Direct and Economize"+" We promise no box-pushing, no hyper-specialization cacophony and no take your pick selling"+" We are a Perfect Fluid Blend of Art and Science");
+		
+		
 
+		sendTextMessage(senderID,"Technology Solutions company with modern techno-creative fluid blend as its principle."+" Developing economically feasible, artistically adaptable, and technically cutting edge solutions as its focus.");
+fbService.sendTypingOn(sender),
+sendTextMessage(senderID, "Based on stage goals of organization we serve through choice of tracks. Acceleration, Build, Change, Direct and Economize"+" We promise no box-pushing, no hyper-specialization cacophony and no take your pick selling"+" We are a Perfect Fluid Blend of Art and Science");
+sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/05/know-1.jpg");
 		break;
 		case"Contact":
 		sendToApiAi(senderID,"Contact");
