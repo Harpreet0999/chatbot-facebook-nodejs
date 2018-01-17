@@ -192,21 +192,9 @@ function handleEcho(messageId, appId, metadata) {
 function handleApiAiAction(sender, action, responseText, contexts, parameters) {
 	switch (action) {
 		default:
-		case Opening:
-sendTextMessage(senderID,"Looking for a Job")
+	
 
-		let reply =[
-		
-		{
-        "content_type":"text",
-        "title":"Apply Now",
-        "payload":"Apply"
-      }			
-		
-		];
-		sendQuickReply(sender,responseText,reply);
-
-		break;
+	
 			//unhandled action, just send back the text
 			sendTextMessage(sender, responseText);
 	}
@@ -1209,9 +1197,7 @@ sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/
 		break;
 
 
-		case"participate":
-		sendToApiAi(senderID,"participate");
-		break;
+
 		default:
 			//unindentified payload
 			let ele=[
