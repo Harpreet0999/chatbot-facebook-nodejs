@@ -1459,9 +1459,9 @@ break;
 case "Email":
 sendTextMessage(senderID,"This feature is currently in progress, sorry for inconvenience");
 break;
+
 case "nodejob":
-sendImageMessage(senderID,"http://www.fluidonomics.com/wp-content/uploads/2017/12/nodeJSopt.jpg");
-sendTypingOn(senderID);
+//sendImageMessage(senderID,"http://www.fluidonomics.com/wp-content/uploads/2017/12/nodeJSopt.jpg");
 sendTextMessage(senderID,"Experience:-2-4 Years | Qualification:-BE / BTech / BCA / MCA");
 sendTextMessage(senderID,"Required Skills:-Full Stack Developers with proven expertise in Node JS.Hands on with AJAX, XML, JSON, CSS3, HTML5, Bootstrap 2.0, MySQL, MongoDB, NodeJS, ExpressJS, ReactJS and related technologies.");
 sendTextMessage(senderID,"Highly efficient in JavaScript libraries and frameworks"+"Optional Skills"+" Exposure to AWS, Big Data, NLP, ChatBots, React Native, Firebase"+ " Exposure to any MVC framework");
