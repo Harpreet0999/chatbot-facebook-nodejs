@@ -868,7 +868,6 @@ function receivedPostback(event) {
 		
 
 		sendTextMessage(senderID,"Technology Solutions company with modern techno-creative fluid blend as its principle."+" Developing economically feasible, artistically adaptable, and technically cutting edge solutions as its focus.");
-fbService.sendTypingOn(senderID),
 sendTextMessage(senderID, "Based on stage goals of organization we serve through choice of tracks. Acceleration, Build, Change, Direct and Economize"+" We promise no box-pushing, no hyper-specialization cacophony and no take your pick selling"+" We are a Perfect Fluid Blend of Art and Science");
 sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/05/know-1.jpg");
 		break;
@@ -910,6 +909,54 @@ sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/
 		case"Openings":
 
 		let jbopening=[
+{
+			"title": " Java Developer ",
+            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/08/JAVAopt-600x403.jpg",
+            "subtitle": "3+ Years",
+            
+            "buttons": [
+              {
+               "type": "postback",
+                "payload": "Java",
+                "title": "Know More"
+                
+
+              },
+              {
+              	 "type": "element_share",
+                "share_contents": { 
+                  "attachment": {
+                    "type": "template",
+                    "payload": {
+                      "template_type": "generic",
+                      "elements": [
+                       {
+                          "title": "Java Developer",
+                          
+                          "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/08/JAVAopt-600x403.jpg",
+                          
+                          "buttons": [
+                            {
+                            	"type": "web_url",
+                "url": "http://www.fluidonomics.com/sr-java-developer-4-years/",
+                "title": "Know More",
+                "webview_height_ratio": "tall"
+                              
+                            }
+                          ]
+                        }
+                      ]
+
+             }
+         }
+     }
+
+              }
+
+            ]
+
+		},
+
 		
 		{
 			"title": "NodeJS ",
@@ -918,7 +965,7 @@ sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/
             "buttons": [
             {
 
-                       "type": "postback",
+                 "type": "postback",
                 "payload": "nodejob",
                 "title": "Know More"
                               
@@ -933,7 +980,7 @@ sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/
                       "template_type": "generic",
                       "elements": [
                        {
-                          "title": "NodeJS",
+                          "title": "Node JS",
                           
                           "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/12/nodeJSopt-600x403.jpg",
                           
@@ -1001,54 +1048,7 @@ sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/
             ]
 
 		},
-		{
-			"title": "Sr. Java Developer ",
-            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/08/JAVAopt-600x403.jpg",
-            "subtitle": "4+ Years",
-            
-            "buttons": [
-              {
-               "type": "web_url",
-                "url": "http://www.fluidonomics.com/sr-java-developer-4-years/",
-                "title": "Know More",
-                "webview_height_ratio": "tall"
-                
-
-              },
-              {
-              	 "type": "element_share",
-                "share_contents": { 
-                  "attachment": {
-                    "type": "template",
-                    "payload": {
-                      "template_type": "generic",
-                      "elements": [
-                       {
-                          "title": "Java Developer",
-                          
-                          "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/08/JAVAopt-600x403.jpg",
-                          
-                          "buttons": [
-                            {
-                            	"type": "web_url",
-                "url": "http://www.fluidonomics.com/sr-java-developer-4-years/",
-                "title": "Know More",
-                "webview_height_ratio": "tall"
-                              
-                            }
-                          ]
-                        }
-                      ]
-
-             }
-         }
-     }
-
-              }
-
-            ]
-
-		},
+		
 	{
 			"title": "HR | Internship",
             "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/03/HR-Internship-1-600x403.png",
@@ -1447,13 +1447,14 @@ sendTextMessage(senderID,"This feature is currently in progress, sorry for incon
 break;
 
 case "nodejob":
-//sendImageMessage(senderID,"http://www.fluidonomics.com/wp-content/uploads/2017/12/nodeJSopt.jpg");
-sendTextMessage(senderID,"Experience:-2-4 Years | Qualification:-BE / BTech / BCA / MCA");
-sendTextMessage(senderID,"Required Skills:-Full Stack Developers with proven expertise in Node JS.Hands on with AJAX, XML, JSON, CSS3, HTML5, Bootstrap 2.0, MySQL, MongoDB, NodeJS, ExpressJS, ReactJS and related technologies.");
-sendTextMessage(senderID,"Highly efficient in JavaScript libraries and frameworks"+"Optional Skills"+" Exposure to AWS, Big Data, NLP, ChatBots, React Native, Firebase"+ " Exposure to any MVC framework");
-sendTextMessage(senderID,"Responsibilities"+"End to End contribution to technology oriented development projects."+"Providing solutions with minimum system requirements and in Agile Mode."+ "Custom development of new Platforms & Solutions");
-
+sendImageMessage(senderID,"https://drive.google.com/uc?export=view&id=1enZiPvHfM36HEgBG4jMT1JGThZazEx7R");
 		break;
+
+case"Java":
+sendImageMessage(senderID,"https://drive.google.com/uc?export=view&id=1sR4O3x8SY2TfO31GXw2suElUeISSGKbM");
+break;
+
+
 
 	}
 
