@@ -931,7 +931,7 @@ sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/
             {
 
                        "type": "postback",
-                "payload": "node_job",
+                "payload": "nodejob",
                 "title": "Know More"
                               
                             
@@ -1459,7 +1459,7 @@ break;
 case "Email":
 sendTextMessage(senderID,"This feature is currently in progress, sorry for inconvenience");
 break;
-case "node_job":
+case "nodejob":
 sendImageMessage(senderID,"http://www.fluidonomics.com/wp-content/uploads/2017/12/nodeJSopt.jpg");
 sendTypingOn(senderID);
 sendTextMessage(senderID,"Experience:-2-4 Years | Qualification:-BE / BTech / BCA / MCA");
