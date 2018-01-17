@@ -1457,7 +1457,7 @@ sendGenericMessage(senderID,officefluid);
 			break;
 case Email:
 sendTextMessage(senderID,"This feature is currently in progress, sorry for inconvenience");
-break
+break;
 case node_job:
 sendImageMessage(senderID,"http://www.fluidonomics.com/wp-content/uploads/2017/12/nodeJSopt.jpg");
 sendTypingOn(senderID);
