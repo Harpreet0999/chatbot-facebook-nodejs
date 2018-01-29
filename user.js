@@ -5,7 +5,7 @@ const pg = require('pg');
 pg.defaults.ssl = true;
 
 module.exports=
-adduser: function(callback,userId)
+ function(callback,userId)
 {
 	request({
 		uri: 'https://graph.facebook.com/v2.7/' + userId,
@@ -48,8 +48,11 @@ pool.connect(function(err, client, done) {
 							user.timezone,
 							user.gender
 						]);
+
 				}
 			}
+			done();
+			callback(user);
 		});
 
 });
