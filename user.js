@@ -4,7 +4,8 @@ const config = require ('./config');
 const pg = require('pg');
 pg.defaults.ssl = true;
 
-module.exports= function(callback,userId)
+module.exports=
+adduser: function(callback,userId)
 {
 	request({
 		uri: 'https://graph.facebook.com/v2.7/' + userId,
