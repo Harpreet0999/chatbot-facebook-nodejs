@@ -13,7 +13,7 @@ applyjob: function(profile, userId) {
                 return console.error('Error acquiring client', err.stack);
             }
 
-            let sql1 = `SELECT color FROM Apply WHERE fb_id='${userId}' LIMIT 1`;
+            let sql1 = `SELECT color FROM demo WHERE fb_id='${userId}' LIMIT 1`;
             client
                 .query(sql1,
                     function(err, result) {
