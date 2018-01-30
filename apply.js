@@ -39,7 +39,7 @@ applyjob: function(profile, userId) {
             done();
         });
         pool.end();
-    }
+    
 }
 
 
