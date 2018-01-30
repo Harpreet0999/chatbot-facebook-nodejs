@@ -12,6 +12,7 @@ const uuid = require('uuid');
 const pg = require('pg');
 pg.defaults.ssl = true;
 const userdata = require('./user');
+const apply = require('./apply');
 
 
 // Messenger API parameters
@@ -205,6 +206,14 @@ function handleEcho(messageId, appId, metadata) {
 
 function handleApiAiAction(sender, action, responseText, contexts, parameters) {
 	switch (action) {
+		case "job_application":
+		apply.applyjob(parameters['profile'],sender);
+
+
+
+		break;
+
+
 		default:
 	
 
