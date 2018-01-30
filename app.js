@@ -206,12 +206,9 @@ function handleEcho(messageId, appId, metadata) {
 
 function handleApiAiAction(sender, action, responseText, contexts, parameters) {
 	switch (action) {
-		case "job_application":
+		case "demoregister":
 		apply.applyjob(parameters['profile'],sender);
-
-
-
-		break;
+break;
 
 
 		default:

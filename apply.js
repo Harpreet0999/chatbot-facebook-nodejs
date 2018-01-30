@@ -22,7 +22,7 @@ applyjob: function(profile, userId) {
                         } else {
                             let sql;
                             if (result.rows.length === 0) {
-                                sql = 'INSERT INTO public.demo (profile, fb_id) VALUES ($1, $2)';
+                                sql = 'INSERT INTO demo (profile, fb_id) VALUES ($1, $2)';
                             }
                             /* else {
                                 sql = 'UPDATE public.user_color SET color=$1 WHERE fb_id=$2';
