@@ -207,9 +207,255 @@ function handleEcho(messageId, appId, metadata) {
 function handleApiAiAction(sender, action, responseText, contexts, parameters) {
 	switch (action) {
 		case "demoregister":
-		apply.applyjob(parameters['profile'],sender);
+		apply.applyjob(parameters['demoprofile'],sender);
 break;
 
+case "opening":
+	let jobopening=[
+{
+			"title": " Java Developer ",
+            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/08/JAVAopt-600x403.jpg",
+            "subtitle": "3+ Years",
+            
+            "buttons": [
+              {
+               "type": "postback",
+                "payload": "Java",
+                "title": "Know More"
+                
+
+              },
+              {
+              	 "type": "element_share",
+                "share_contents": { 
+                  "attachment": {
+                    "type": "template",
+                    "payload": {
+                      "template_type": "generic",
+                      "elements": [
+                       {
+                          "title": "Java Developer",
+                          
+                          "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/08/JAVAopt-600x403.jpg",
+                          
+                          "buttons": [
+                            {
+                            	"type": "web_url",
+                "url": "http://www.fluidonomics.com/sr-java-developer-4-years/",
+                "title": "Know More",
+                "webview_height_ratio": "tall"
+                              
+                            }
+                          ]
+                        }
+                      ]
+
+             }
+         }
+     }
+
+              }
+
+            ]
+
+		},
+
+		
+		{
+			"title": "NodeJS ",
+            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/12/nodeJSopt-600x403.jpg",
+            "subtitle": "| Full Stack Web Developer | 2+ Years",
+            "buttons": [
+            {
+
+                 "type": "postback",
+                "payload": "nodejob",
+                "title": "Know More"
+                              
+                            
+            },
+              {
+             	 "type": "element_share",
+                "share_contents": { 
+                  "attachment": {
+                    "type": "template",
+                    "payload": {
+                      "template_type": "generic",
+                      "elements": [
+                       {
+                          "title": "Node JS",
+                          
+                          "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/12/nodeJSopt-600x403.jpg",
+                          
+                          "buttons": [
+                            {
+                            	 "type": "web_url",
+                "url": "http://www.fluidonomics.com/nodejs/",
+                "title": "Know more",
+                "webview_height_ratio": "tall"
+                              
+                            }
+                          ]
+                        }
+                      ]
+
+             }
+         }
+     }
+
+              }
+            ]
+
+		},
+		{
+			"title": "QA Engineer",
+            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2016/06/testing-web-600x403.jpg",
+           "subtitle": "2+ Years",
+            "buttons": [
+              {
+              "type": "postback",
+                "payload": "Testing",
+                "title": "Know More"
+			
+              },
+               {
+              	 "type": "element_share",
+                "share_contents": { 
+                  "attachment": {
+                    "type": "template",
+                    "payload": {
+                      "template_type": "generic",
+                      "elements": [
+                       {
+                          "title": "QA Engineer",
+                          
+                          "image_url": "http://www.fluidonomics.com/wp-content/uploads/2016/06/testing-web-600x403.jpg",
+                          
+                          "buttons": [
+                            {
+                        "type": "web_url",
+                "url": "http://www.fluidonomics.com/software-testing-pune/",
+                "title": "Apply now",
+                "webview_height_ratio": "tall"
+                              
+                            }
+                          ]
+                        }
+                      ]
+
+             }
+         }
+     }
+
+              }
+            ]
+
+		},
+		
+	{
+			"title": "HR | Internship",
+            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/03/HR-Internship-1-600x403.png",
+            
+            "buttons": [
+              {
+               "type": "web_url",
+                "url": "http://www.fluidonomics.com/hr-internship-pune/",
+                "title": "Know More",
+                "webview_height_ratio": "tall"
+                
+
+              },
+               {
+              	 "type": "element_share",
+                "share_contents": { 
+                  "attachment": {
+                    "type": "template",
+                    "payload": {
+                      "template_type": "generic",
+                      "elements": [
+                       {
+                          "title": "HR Internship",
+                          
+                          "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/03/HR-Internship-1-600x403.png",
+                          
+                          "buttons": [
+                            {
+                            "type": "web_url",
+                "url": "http://www.fluidonomics.com/hr-internship-pune/",
+                "title": "Apply now",
+                "webview_height_ratio": "tall"
+                              
+                            }
+                          ]
+                        }
+                      ]
+
+             }
+         }
+     }
+
+              }
+            ]
+
+		},
+{
+			
+"title": "Security Testing",
+            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/12/security-Testing-image-600x403.jpg",
+            "subtitle": "3+ Years",
+            "buttons": [
+              {
+               "type": "web_url",
+                "url": "http://www.fluidonomics.com/security-testing-3-years/",
+                "title": "Know more",
+                "webview_height_ratio": "tall"
+                
+
+              },
+              {
+              	 "type": "element_share",
+                "share_contents": { 
+                  "attachment": {
+                    "type": "template",
+                    "payload": {
+                      "template_type": "generic",
+                      "elements": [
+                       {
+                          "title": "Security Testing",
+                          
+                          "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/12/security-Testing-image-600x403.jpg",
+                          
+                          "buttons": [
+                            {
+                            "type": "web_url",
+                "url": "http://www.fluidonomics.com/security-testing-3-years/",
+                "title": "Know More",
+                "webview_height_ratio": "full"
+                              
+                            }
+                          ]
+                        }
+                      ]
+
+             }
+         }
+     }
+
+              }
+            ]
+
+		}
+
+
+		];
+		sendGenericMessage(senderID,jobopening);
+
+
+
+
+
+
+break;
 
 		default:
 	
@@ -731,10 +977,53 @@ function receivedPostback(event) {
 	var payload = event.postback.payload;
 
 	switch (payload) {
-		case"Welcome":
+		case "Welcome":
 		greetUserText(senderID);
 		
 
+		/*var pool = new pg.Pool(config.PG_CONFIG);
+		pool.connect(function(err, client, done) {
+			if (err) {
+				return console.error('Error acquiring client', err.stack);
+			}
+			var rows = [];
+			console.log('fetching user');
+			client.query(`SELECT id FROM users WHERE fb_id='${userId}' LIMIT 1`,
+				function(err, result) {
+					console.log('query result ' + result);
+					if (err) {
+						console.log('Query error: ' + err);
+					} else {
+						console.log('rows: ' + result.rows.length);
+						//this is a array
+                        //let colors = [];
+                        let delements = [];
+                        for (let i = 0; i < result.rows.length; i++) {
+                        	//this wil pus h all the colors in the array
+                        	/*
+                        	delements[i].title=result.rows[i][title];
+                        	delements[i].image_url=result.rows[i][img_url];
+                        	delements[i].subtitle=result.rows[i][subtitle];
+                        	delements[i].buttontitle = result.row[i][buttontitle];
+                        	delements[i].buttontype= result.row[i][buttontype];
+                        	delements[i].buttonpayload = result.row[i][payload];
+                        	 	//delements.push(result.rows[i]);
+                            //result.rows[i]['color']
+                        }
+                        //the below array will have the structured dat in the format you wanted
+                        //callback(delements);
+						
+						}
+					}
+				});
+
+		});
+		pool.end();
+
+                        	*/
+                          
+
+        
 		let delements=[
 		{
 			"title": "Fluidonomics",
@@ -823,6 +1112,16 @@ function receivedPostback(event) {
 
 		}	
 		];
+
+*/
+
+
+
+
+		//iske upar tune delemnts hard code krke type kiya hai
+		//basically delemnets is an array
+		//you have made it a static array
+		//my function will make it a dynamic array based on the data from the database,provide you are running the right query
 		sendGenericMessage(senderID,delements);
 
 		break;
