@@ -1299,7 +1299,7 @@ sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/
               {
                "type": "postback",
                 "payload": "services",
-                "title": "Services"
+                "title": "services"
 
               }
             ]
