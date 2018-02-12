@@ -1030,9 +1030,10 @@ sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/
            "subtitle": "2+ Years",
             "buttons": [
               {
-              "type": "postback",
-                "payload": "Testing",
-                "title": "Know More"
+              "type": "web_url",
+                "url": "http://www.fluidonomics.com/software-testing-pune/",
+                "title": "Apply now",
+                "webview_height_ratio": "tall"
 			
               },
                {
