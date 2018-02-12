@@ -934,9 +934,10 @@ sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/
             
             "buttons": [
               {
-               "type": "postback",
-                "payload": "Java",
-                "title": "Know More"
+              "type": "web_url",
+                "url": "http://www.fluidonomics.com/sr-java-developer-4-years/",
+                "title": "Know More",
+                "webview_height_ratio": "tall"
                 
 
               },
@@ -983,9 +984,10 @@ sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/
             "buttons": [
             {
 
-                 "type": "postback",
-                "payload": "nodejob",
-                "title": "Know More"
+                 "type": "web_url",
+                "url": "http://www.fluidonomics.com/nodejs/",
+                "title": "Know more",
+                "webview_height_ratio": "tall"
                               
                             
             },
