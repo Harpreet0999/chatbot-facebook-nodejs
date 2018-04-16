@@ -1465,7 +1465,6 @@ break;
 
 case "Email":
 sendTextMessage(senderID,"This feature is currently in progress, sorry for inconvenience");
-send
 break;
 
 case "nodejob":
@@ -1570,7 +1569,7 @@ function receivedAuthentication(event) {
 	var passThroughParam = event.optin.ref;
 
 	console.log("Received authentication for user %d and page %d with pass " +
-		"through param '%s' at %d", senderID, recipientID, passThroughParam,
+		"through param '%s' at %d", xsenderID, recipientID, passThroughParam,
 		timeOfAuth);
 
 	// When an authentication is received, we'll send a message back to the sender
