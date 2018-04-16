@@ -1192,21 +1192,10 @@ sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/
             
 
 		},
-		{
-		"title": "Market Research",
-			"subtitle": "Primary and Secondary Research, Market Segmentation, Customer Profiling, Data Verification, Data Enrichment, Contact Details Verfication",
-            "image_url": "https://drive.google.com/uc?export=view&id=1qzPbg6mX-tZMCLD54IhVtV9_K95LDFUm",
-            
-        },
+		
         {
         	"title": "Digitial Marketing",
 			"subtitle": "Content development and Campaign Management for micro targeted and result oriented digital marketing through Social Media Channels, Mobile Applications, Emails, SMSs etc.",
-            "image_url": "https://drive.google.com/uc?export=view&id=1qzPbg6mX-tZMCLD54IhVtV9_K95LDFUm",
-            
-        },
-        {
-        	"title": "Lead Generation",
-			"subtitle": "Qualified Sales Lead Generation and Appointment Setting through extensive marketing research and focused digital marketing",
             "image_url": "https://drive.google.com/uc?export=view&id=1qzPbg6mX-tZMCLD54IhVtV9_K95LDFUm",
             
         }
