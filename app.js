@@ -819,12 +819,13 @@ function receivedPostback(event) {
 		{
 			"title": "Contact",
             "image_url": "https://drive.google.com/uc?export=view&id=1APXbC8pvW2QChj1sWmSOQiMtsgKirhLU",
-            "subtitle": "Conatct Us",
+            "subtitle": "Contact Us",
             "buttons": [
-              {
-               "type": "postback",
-                "payload": "Email",
-                "title": "Email"
+              
+               {
+  "type":"phone_number",
+  "title":"Call",
+  "payload":"<02049067345>"
 
               },
               {
