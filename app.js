@@ -896,7 +896,7 @@ sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/
 		let elements=[
 		{
 			"title": "Deepesh Sodhi",
-            "image_url": "https://drive.google.com/uc?export=view&id=1no4biJKwqXsHXTvq7_w2EQD-2qE6AteS",
+            "image_url": "https://drive.google.com/uc?export=view&id=1ZEuB6Fu8SwzWsl-8cttiD5xE12Ot73dk",
             "subtitle": "Co-Founder & Head Strategic Growth at Fluidonomics",
             "buttons": [
               {
