@@ -1266,7 +1266,7 @@ sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/
                
   "type":"phone_number",
   "title":"Call",
-  "payload":"02049067345"
+  "payload":"<02049067345>"
               },
               {
                 "type": "postback",
@@ -1462,10 +1462,10 @@ sendGenericMessage(senderID,officefluid);
 
 break;
 
-case "Email":
-sendTextMessage(senderID,"This feature is currently in progress, sorry for inconvenience");
+//case "Email":
+//sendTextMessage(senderID,"This feature is currently in progress, sorry for inconvenience");
 
-break;
+//break;
 
 case "nodejob":
 sendImageMessage(senderID,"https://drive.google.com/uc?export=view&id=1enZiPvHfM36HEgBG4jMT1JGThZazEx7R");
