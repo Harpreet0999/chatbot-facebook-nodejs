@@ -825,7 +825,7 @@ function receivedPostback(event) {
                {
   "type":"phone_number",
   "title":"Call",
-  "payload":"<02049067345>"
+  "payload":"02049067345"
 
               },
               {
