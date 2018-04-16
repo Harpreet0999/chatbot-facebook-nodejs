@@ -1078,7 +1078,7 @@ sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/
               {
               "type": "web_url",
                 "url": "http://www.fluidonomics.com/software-testing-pune/",
-                "title": "Apply now",
+                "title": "Know More",
                 "webview_height_ratio": "tall"
 			
               },
@@ -1099,7 +1099,7 @@ sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/
                             {
                         "type": "web_url",
                 "url": "http://www.fluidonomics.com/software-testing-pune/",
-                "title": "Apply now",
+                "title": "Know More",
                 "webview_height_ratio": "tall"
                               
                             }
@@ -1135,7 +1135,7 @@ sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/
                   "attachment": {
                     "type": "template",
                     "payload": {
-                      "template_type": "generic",
+                     "template_type": "generic",
                       "elements": [
                        {
                           "title": "HR Internship",
