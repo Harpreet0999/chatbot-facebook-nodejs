@@ -927,8 +927,100 @@ sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/
 		case"Openings":
 
 		let jbopening=[
+		{
+			"title": "UI Designer",
+            "image_url": "https://drive.google.com/uc?export=view&id=12qA20gQk2Z-lNGvskHCcUnr0Bi6rI9b9",
+            "subtitle": "2+ Years",
+            "buttons": [
+            {
+
+                 "type": "web_url",
+                "url": "http://www.fluidonomics.com/ui-designer/",
+                "title": "Know more",
+                "webview_height_ratio": "tall"
+                              
+                            
+            },
+              {
+             	 "type": "element_share",
+                "share_contents": { 
+                  "attachment": {
+                    "type": "template",
+                    "payload": {
+                      "template_type": "generic",
+                      "elements": [
+                       {
+                          "title": "UI Designer",
+                          
+                          "image_url": "https://drive.google.com/uc?export=view&id=12qA20gQk2Z-lNGvskHCcUnr0Bi6rI9b9",
+                          
+                          "buttons": [
+                            {
+                            	 "type": "web_url",
+                "url": "http://www.fluidonomics.com/ui-designer/",
+                "title": "Know more",
+                "webview_height_ratio": "tall"
+                              
+                            }
+                          ]
+                        }
+                      ]
+
+             }
+         }
+     }
+
+              }
+            ]
+
+		},
 {
-			
+			"title": "HR Executive",
+            "image_url": "https://drive.google.com/uc?export=view&id=lXjTBCG0v5yToDefvQnKzD2Q1HhAhx",
+            "subtitle": "|Recruitment| 2+ Years",
+            "buttons": [
+            {
+
+                 "type": "web_url",
+                "url": "http://www.fluidonomics.com/hr/",
+                "title": "Know more",
+                "webview_height_ratio": "tall"
+                              
+                            
+            },
+              {
+             	 "type": "element_share",
+                "share_contents": { 
+                  "attachment": {
+                    "type": "template",
+                    "payload": {
+                      "template_type": "generic",
+                      "elements": [
+                       {
+                          "title": "HR Executive",
+                          
+                          "image_url": "https://drive.google.com/uc?export=view&id=lXjTBCG0v5yToDefvQnKzD2Q1HhAhx",
+                          
+                          "buttons": [
+                            {
+                            	 "type": "web_url",
+                "url": "http://www.fluidonomics.com/hr/",
+                "title": "Know more",
+                "webview_height_ratio": "tall"
+                              
+                            }
+                          ]
+                        }
+                      ]
+
+             }
+         }
+     }
+
+              }
+            ]
+
+		},
 
 		
 		{
