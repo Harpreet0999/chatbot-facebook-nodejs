@@ -1207,7 +1207,7 @@ sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/
         {
         	"title": "Lead Generation",
 			"subtitle": "Qualified Sales Lead Generation and Appointment Setting through extensive marketing research and focused digital marketing",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "image_url": "https://drive.google.com/uc?export=view&id=1qzPbg6mX-tZMCLD54IhVtV9_K95LDFUm",
             
         }
 		];
