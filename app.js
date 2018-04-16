@@ -1267,7 +1267,6 @@ sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/
   "type":"phone_number",
   "title":"Call",
   "payload":"02049067345"
-}
               },
               {
                 "type": "postback",
