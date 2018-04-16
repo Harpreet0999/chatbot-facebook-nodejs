@@ -896,7 +896,7 @@ sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/
 		let elements=[
 		{
 			"title": "Deepesh Sodhi",
-            "image_url": "https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-9/15178936_10154802105099669_5087934369087452897_n.jpg?_nc_cat=0&oh=77e7e360215fd514ff5cc8428b5f47a5&oe=5B58DC75",
+            "image_url": "https://drive.google.com/uc?export=view&id=1w7EzSIPH9OahH16nAhd6rKC_bxTxnobZ",
             "subtitle": "Co Founder & Head Strategic Growth at Fluidonomics",
             "buttons": [
               {
@@ -909,7 +909,7 @@ sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/
 		},
 			{
 			"title": "Aditya Shastri",
-            "image_url": "https://scontent-bom1-1.xx.fbcdn.net/v/t1.0-0/p370x247/30261919_1963218597041279_2945247941740575655_n.jpg?_nc_cat=0&oh=196b13d1db52bf03f436acbd388401b1&oe=5B5F2828",
+            "image_url": "https://drive.google.com/uc?export=view&id=1RYB5oRxLPscEALcQRY03KLxmDkuhzWLz",
             "subtitle": "Co Founder at Fluidonomics",
             "buttons": [
               {
