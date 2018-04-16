@@ -928,53 +928,7 @@ sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/
 
 		let jbopening=[
 {
-			"title": " Java Developer ",
-            "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/08/JAVAopt-600x403.jpg",
-            "subtitle": "3+ Years",
-            
-            "buttons": [
-              {
-              "type": "web_url",
-                "url": "http://www.fluidonomics.com/sr-java-developer-4-years/",
-                "title": "Know More",
-                "webview_height_ratio": "tall"
-                
-
-              },
-              {
-              	 "type": "element_share",
-                "share_contents": { 
-                  "attachment": {
-                    "type": "template",
-                    "payload": {
-                      "template_type": "generic",
-                      "elements": [
-                       {
-                          "title": "Java Developer",
-                          
-                          "image_url": "http://www.fluidonomics.com/wp-content/uploads/2017/08/JAVAopt-600x403.jpg",
-                          
-                          "buttons": [
-                            {
-                            	"type": "web_url",
-                "url": "http://www.fluidonomics.com/sr-java-developer-4-years/",
-                "title": "Know More",
-                "webview_height_ratio": "tall"
-                              
-                            }
-                          ]
-                        }
-                      ]
-
-             }
-         }
-     }
-
-              }
-
-            ]
-
-		},
+			
 
 		
 		{
