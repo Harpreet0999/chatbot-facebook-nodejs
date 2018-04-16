@@ -1177,31 +1177,31 @@ sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/
 		{
 			"title": "Branding and Designing",
 			"subtitle": "Branding, Logo Designing, Corporate Identity, Corporate Presentations, Concept Creations, Marketing Material for Offline and Online Mediums,  Info-graphics",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "image_url": "https://drive.google.com/uc?export=view&id=1qzPbg6mX-tZMCLD54IhVtV9_K95LDFUm",
             
 		},
 		{"title": "Web and Mobile Development",
 			"subtitle": "Designing and Developing Web and Mobile interfaces. User Experiences with simple information display or complex back end solutions",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "image_url": "https://drive.google.com/uc?export=view&id=1qzPbg6mX-tZMCLD54IhVtV9_K95LDFUm",
             
 
 		},
 		{"title": "Backoffice Operations",
 			"subtitle": "The iPad, the app, the cloud, the x-commerce, the content and everything to do with the digital life that we lead…",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "image_url": "https://drive.google.com/uc?export=view&id=1qzPbg6mX-tZMCLD54IhVtV9_K95LDFUm",
             
 
 		},
 		{
 		"title": "Market Research",
 			"subtitle": "Primary and Secondary Research, Market Segmentation, Customer Profiling, Data Verification, Data Enrichment, Contact Details Verfication",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "image_url": "https://drive.google.com/uc?export=view&id=1qzPbg6mX-tZMCLD54IhVtV9_K95LDFUm",
             
         },
         {
         	"title": "Digitial Marketing",
 			"subtitle": "Content development and Campaign Management for micro targeted and result oriented digital marketing through Social Media Channels, Mobile Applications, Emails, SMSs etc.",
-            "image_url": "https://media-exp2.licdn.com/media/AAEAAQAAAAAAAAi8AAAAJGQ2YjdlM2JjLTQ2ZWEtNGE5Zi04NTRlLTA4YzliODk0ODYyNA.png",
+            "image_url": "https://drive.google.com/uc?export=view&id=1qzPbg6mX-tZMCLD54IhVtV9_K95LDFUm",
             
         },
         {
