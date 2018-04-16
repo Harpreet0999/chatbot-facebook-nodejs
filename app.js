@@ -976,7 +976,7 @@ sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/
 		},
 {
 			"title": "HR Executive",
-            "image_url": "https://drive.google.com/uc?export=view&id=lXjTBCG0v5yToDefvQnKzD2Q1HhAhx",
+            "image_url": "https://drive.google.com/uc?export=view&id=1T-lXjTBCG0v5yToDefvQnKzD2Q1HhAhx",
             "subtitle": "|Recruitment| 2+ Years",
             "buttons": [
             {
@@ -999,7 +999,7 @@ sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/
                        {
                           "title": "HR Executive",
                           
-                          "image_url": "https://drive.google.com/uc?export=view&id=lXjTBCG0v5yToDefvQnKzD2Q1HhAhx",
+                          "image_url": "https://drive.google.com/uc?export=view&id=1T-lXjTBCG0v5yToDefvQnKzD2Q1HhAhx",
                           
                           "buttons": [
                             {
