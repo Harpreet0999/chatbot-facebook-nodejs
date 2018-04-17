@@ -676,7 +676,7 @@ function sendAccountLinking(recipientId) {
 function greetUserText(userId) {
 	//first read user firstname
 	let user = usersMap.get(userId);
-sendTextMessage(userId, "Hello!! " + user.first_name + ' , welcome to Fluidonomics, how can i help you today');
+sendTextMessage(userId, "Hello!! " + user.first_name + ' , welcome to Fluidonomics, how can I help you today');
 			
 }
 
@@ -912,7 +912,7 @@ sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/
             "image_url": "https://drive.google.com/uc?export=view&id=1sByvLXtKQiWI3AfdwvRMVSM18P_CJr55",
             "subtitle": "Co-Founder at Fluidonomics",
             "buttons": [
-              {
+              
                 "type": "web_url",
                 "url": "https://www.linkedin.com/in/adishastri/",
                 "title": "Linkedin",
@@ -1465,7 +1465,6 @@ sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/
                   "attachment": {
                     "type": "template",
                     "payload": {
-                      "template_type": "generic",
                       "elements": [
                        {
                           "title": "Ujjain",
