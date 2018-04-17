@@ -912,6 +912,7 @@ sendImageMessage(senderID,"http://beta.fluidonomics.com/wp-content/uploads/2016/
             "image_url": "https://drive.google.com/uc?export=view&id=1sByvLXtKQiWI3AfdwvRMVSM18P_CJr55",
             "subtitle": "Co-Founder at Fluidonomics",
             "buttons": [
+            {
               
                 "type": "web_url",
                 "url": "https://www.linkedin.com/in/adishastri/",
