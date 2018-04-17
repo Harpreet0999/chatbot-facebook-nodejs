@@ -28,7 +28,7 @@ pool.connect(function(err, client, done) {
 	var rows = [];
 	console.log('fetching user');
 	//defining query and running it
-	client.query(`SELECT id FROM users WHERE fb_id='${userId}' LIMIT 1`,
+	return pool.query(`SELECT id FROM users WHERE fb_id='${userId}' LIMIT 1`,
 		function(err, result) {
 			console.log('query result ' + result);
 			if (err) {
